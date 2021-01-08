@@ -1,8 +1,4 @@
 /* FONTE */
-@font-face{
-    font-family: carolingia;
-    src:url('carolingia.ttf')
-}
 
 .body{
     margin: 0;
@@ -13,8 +9,8 @@
 }
 
 @font-face {
-	font-family: Breathe Fire;
-	src: url('Breathe Fire.otf')
+	font-family: Black;
+	src: url('Black.ttf')
 }
 
 .posts-content h2 {
@@ -26,7 +22,7 @@
 }
 
 .fliph2 h2 {
-  color: #beaf37;
+  color: #ffffff;
   margin-top: 50px;
 }
 
@@ -36,8 +32,8 @@
 }
  
 h2 {
-  font-family: Breathe Fire;
-  color:#b3a438;
+  font-family: Black;
+  color:#ffffff;
 }
 
 h3{
@@ -62,7 +58,7 @@ h5{
 
 .full-screen{
   width: 100%;
-  height: 110vh;
+  height: 100vh;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -80,8 +76,8 @@ h5{
 }
 
 .content .img{
-  margin-top: 150px;
-  width: 500px;
+  margin-top: -20px;
+  width: 600px; /*tamanho da logo*/
 }
 
 .content a{
@@ -219,7 +215,6 @@ min-height: 300px;
 background: no-repeat center center scroll;
 -webkit-background-size: cover;
 -moz-background-size: cover;
--o-background-size: cover;
 background-size: cover;
 }
 .carousel-caption {
@@ -380,54 +375,6 @@ color: #fff;
   }
 }
 
-/*     ROLEPLAY    */
-
-.roleplay{
-  width: 100%;
-  height: 300px;
-  clip-path: polygon(100% 0, 100% 0, 100% 35%, 100% 70%, 100% 100%, 70% 95%, 0 100%, 0 0, 30% 5%);
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-  margin-bottom: -50px;
-}
-
-
-.oqroleplay{
-  padding-top: 50px;
-  margin: 0px 250px;
-  text-align: center;
-}
-
-.fundorole{
-  width: 100%;
-  height: 130vh;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  clip-path: polygon(0 0, 74% 3%, 100% 0, 100% 100%, 26% 96%, 0 100%);
-}
-
-
-.fundorole video{
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: 50%;
-  object-fit: cover;
-  z-index: -1;
-}
-
-
-.conteudorole{
-  display: block;
-  width: 550px;
-  text-align: center;
-  color: #f7f6f2;
-  margin: 15px;
-}
-
 /* Novidades */
 
 .novidades{
@@ -519,7 +466,7 @@ figure.effect-zoe figcaption {
 	top: auto;
 	bottom: 0;
 	padding: 1em;
-	height: 3.75em;
+	height: 50px;
 	background: rgb(0,0,0,0.5); /*muda a cor do fundo em historias*/
 	color: #00;
 	-webkit-transition: -webkit-transform 0.35s;
@@ -663,7 +610,6 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 .grid figure figcaption {
 	padding: 2em;
 	color: rgb(238, 240, 247);
-	text-transform: uppercase;
 	font-size: 1.25em;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
@@ -846,7 +792,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 .tituloblog{
   width: 100%;
   height: 300px;
-  background-image: url("images/1.jpg");
+  background-image: url("images/2.jpg");
   clip-path: polygon(30% 0%, 63% 0, 100% 0, 100% 86%, 50% 100%, 50% 100%, 0 89%, 0 0);
 
 }
