@@ -42,11 +42,6 @@ h3{
     font-family: "Open Sans", sans-serif ;
 }
 
-h5{
-  font-family: 'Times New Roman', Times, serif ;
-  color: #68ffff;
-}
-
 .all{
     background-color: #000000;
 }
@@ -466,7 +461,7 @@ figure.effect-zoe figcaption {
 	top: auto;
 	bottom: 0;
 	padding: 1em;
-	height: 50px;
+	height: 3.75em;
 	background: rgb(0,0,0,0.5); /*muda a cor do fundo em historias*/
 	color: #00;
 	-webkit-transition: -webkit-transform 0.35s;
@@ -1202,12 +1197,12 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 .timeline{text-align: center;margin: 20px auto;max-width: 1300px; padding-top: 10px;}
 .c_time{border-radius: 100%;background-image: url("images/fundo1.png");display: inline-block;vertical-align: middle;}
-.c_tsize{width: 150px;height: 150px;margin-left: 50px;border: 0px solid #61C1BE;transition:all 0.5s;-webkit-transition:all 0.5s;}
-.c_tsize p {color:  #cabe3d;  ; font-family:Breathe Fire; font-size:26px; padding-top: 15px;}
-.c_tsize:hover{transition:all 0.5s;-webkit-transition:all 0.5s; width: 300px;height: 300px;border: 15px solid  #a19830;}
+.c_tsize{width: 150px;height: 150px;margin-left: 50px;border: 0px solid #ffffff;transition:all 0.5s;-webkit-transition:all 0.5s;}
+.c_tsize p {color:  #ffffff;  ; font-family:Black; font-size:26px; padding-top: 15px;}
+.c_tsize:hover{transition:all 0.5s;-webkit-transition:all 0.5s; width: 300px;height: 300px;border: 15px solid  #ffffff;}
 .c_tsize:hover .content {display: none;}
 .c_tsize:hover .hidden-content {display: block;}
-.c_tsize:hover .title {color: rgb(248, 248, 242);  padding-top: 2px ;}
+.c_tsize:hover .title {color: rgb(250, 250, 250);  padding-top: 2px ;}
 .hidden-content {display: none;font-size: 0.9em;line-height: 1.2;width: 180px;margin: 0 auto;color: #fff;}
 .hidden-content img {width: 160px;margin-bottom: 5px;}
 
