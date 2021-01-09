@@ -57,6 +57,7 @@ h3{
   overflow: hidden;
   display: flex;
   justify-content: center;
+  margin-top: -30px;
   clip-path: polygon(0 0, 100% 0, 100% 79%, 67% 69%, 29% 82%, 0 74%);
 }
 
