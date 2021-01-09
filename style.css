@@ -37,9 +37,8 @@ h2 {
 }
 
 h3{
-    color: #54d1d1;
-    padding-left: 15%;
-    font-family: "Open Sans", sans-serif ;
+  color: #54d1d1;
+  font-family: "Open Sans", sans-serif ;
 }
 
 .all{
@@ -786,14 +785,14 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 }
 
-.tituloblog h5{
-  color: #131313;
+.tituloblog h2{
+  color: #ffffff;
   padding-top: 100px;
   text-align: center;
 }
 
 .raçasfund2{
-  background-color:#09131f;
+  background-color:#1C1C1C;
 }
  
 .bodycard02{
@@ -915,7 +914,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 .cardrac h2{
   
-  color: #cabe3d; /*nome das raças*/
+  color: #ffffff; /*nome das raças*/
 }
 
 .maisraças{
@@ -1355,5 +1354,5 @@ iframe{
 
 .cardrac2 h2{
   
-  color: #cabe3d; /*nome das raças*/
+  color: #ffffff; /*nome das classes*/
 }
