@@ -1095,7 +1095,6 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   justify-content: center;
   align-items: center;
   text-align: left;
-  font-family: 'BlackChancery', sans-serif;
 }
 
 @media screen and (max-width: 1100px){
@@ -1110,13 +1109,14 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   font-size: 2rem;
   margin-top: 20px;
   color: #ffffff;
+  font-family: 'BlackChancery', sans-serif;
   
 }
 
 
 .infos p{
   color: #edecf3;
-  font-family: 'BlackChancery', sans-serif;
+  
 }
 
 
@@ -1195,7 +1195,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 .timeline{text-align: center;margin: 20px auto;max-width: 1300px; padding-top: 10px;}
 .c_time{border-radius: 100%;background-image: url("images/fundo1.png");display: inline-block;vertical-align: middle;}
 .c_tsize{width: 150px;height: 150px;margin-left: 50px;border: 0px solid #ffffff;transition:all 0.5s;-webkit-transition:all 0.5s;}
-.c_tsize p {color:  #ffffff;  ; font-family:Black; font-size:26px; padding-top: 15px;}
+.c_tsize p {color:  #ffffff;  ; font-family:BlackCha; font-size:26px; padding-top: 15px;}
 .c_tsize:hover{transition:all 0.5s;-webkit-transition:all 0.5s; width: 300px;height: 300px;border: 15px solid  #ffffff;}
 .c_tsize:hover .content {display: none;}
 .c_tsize:hover .hidden-content {display: block;}
