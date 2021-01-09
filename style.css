@@ -11,8 +11,8 @@
 @import url('http://fonts.cdnfonts.com/css/black-chancery');
 
 @font-face {
-	font-family: BlackCha;
-	src: url('BlackCha.ttf')
+  font-family: BlackCha;
+  src: url('BlackCha.ttf')
 }
 
 .posts-content h2 {
@@ -915,7 +915,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 
 .cardrac h2{
-  
+  font-family: BlackCha;
   color: #ffffff; /*nome das raças*/
 }
 
