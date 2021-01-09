@@ -108,6 +108,8 @@ h3{
   align-items: center;
   overflow: hidden;
   justify-content: center;
+  text-align: center;
+  margin-top: -130px;
 }
 
 
@@ -872,7 +874,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   margin-top: -30px;
 }
 
-}
+
 .cardrac .conteudobx p{
   color: rgb(255, 255, 255);
   font-size: 15px;
@@ -1312,7 +1314,7 @@ iframe{
   margin-top: -30px;
 }
 
-}
+
 .cardrac2 .conteudobx p{
   color: rgb(255, 255, 255);
   font-size: 15px;
