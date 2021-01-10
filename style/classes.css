@@ -1,0 +1,275 @@
+/* Geral */
+
+.body{
+    margin: 0;
+    padding: 0;
+    background-color: #1C1C1C;
+    margin-bottom: 0;
+    width: 100%;
+
+}
+
+@import url('http://fonts.cdnfonts.com/css/black-chancery');
+
+ 
+h2 {
+  font-family: 'BlackChancery', sans-serif;
+                                                
+  color:#ffffff;
+}
+
+h3{
+  color: #54d1d1;
+  font-family: "BlackChancery", sans-serif ;
+}
+
+/* nav mobile */
+.collapse ul a{
+text-decoration-color: #fff;
+}
+
+.collapse ul{
+  display: flex;
+  margin: 0px 30px;
+  
+}
+
+.collapse ul li{
+  font-family: 'Times New Roman', Times, serif ;
+  list-style: none;
+  margin-left: 35px;
+  padding-left: 15px;
+  padding-top: 15px;
+  
+}
+
+.collapse ul li a{
+  text-decoration: none;
+  font-size: 1em;
+  color: #fff;
+  position: relative;
+}
+
+.collapse ul li a:before{
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #888888;
+  position: absolute;
+  top: 110%;
+  left: 0;
+  transition: .5s;
+  text-decoration: none;
+  
+}
+
+.collapse ul li:hover a:before{
+  text-decoration: none;
+  width: 75px;
+  transform: translateX(-0%);
+}
+
+.collapse ul li:hover a:after{
+  text-decoration: none;
+  width: 50%;
+  transform: translateX(-100%);
+}
+
+
+/* carrousel */
+
+.navbar{
+    background-color: rgba(0,0,0,.4);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    }
+    
+    .navbar-light .imgnavbar {
+    color: #fff;
+    margin-top: 5px;
+    max-width: 110px;
+    max-height: 110px;
+    }
+    
+    .navbar-nav {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    }
+    
+    .nav-link {
+    font-size: 1em;
+    margin-top: -13px;
+    }
+
+    
+    /* Titulo abaixo do header */
+    
+    .content{
+      text-align: center; 
+    }
+    
+    .img{
+      width: 350px;
+      margin-top: 120px;
+    }
+    
+    
+    .tituloblog{
+      width: 100%;
+      max-width: 5000px;
+      height: 100%;
+      margin-right: -50px;
+      min-height: 350px;
+      background-image: url('../images/2.jpg');
+      background-size: cover;
+      background-repeat: repeat-x;
+      clip-path: polygon(30% 0%, 63% 0, 100% 0, 100% 86%, 50% 100%, 50% 100%, 0 89%, 0 0);
+    
+    }
+
+    /* CARDRAC */
+
+    .raçasfund2{
+        background-color:#1C1C1C;
+        margin-top: 30px;
+      }
+       
+      .bodycard02{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .cardrac2{
+        position: relative;
+        width: 350px;
+        height: 450px;
+        background: black;
+        border-radius: 10px;
+        overflow: hidden;
+        margin: 20px 60px 20px 20px; /* distancia das imagem */
+        justify-content: center;
+      }
+      
+      .cardrac2::before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #363636;
+        transition: 0.5s;
+      }
+      
+      
+      .cardrac2::after{
+        content: '';
+        position: absolute;
+        bottom: 250px;
+        left: 50px;
+        font-weight: 600;
+        font-size: 3em;
+        padding-right: 0px;
+        color:white;
+      }
+      
+      
+      .cardrac2 .imgbx{
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding-left: 0px;
+        padding-top: 0px;
+        z-index: 1;
+      }
+      
+      .cardrac2 .imgbx img{
+        max-width: 100%;
+        transition: 0.5s;
+      }
+      
+      .cardrac2:hover .imgbx img{
+        max-width: 10%;
+        opacity: 0%;
+      }
+       
+      .cardrac2 .conteudobx{
+        position: relative;
+        padding: 18px;
+        padding-top: 17px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        z-index: 1;
+        font-size: 12px;
+        margin-top: -30px;
+      }
+      
+      
+      .cardrac2 .conteudobx p{
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+      }
+      
+      .cardrac2 .conteudobx .preço{
+        font-size: 15px;
+        color:  #cfc232; /* cor dos atributos*/
+        font-weight: 500;
+        letter-spacing: 1px; 
+      }
+      
+      .cardrac2 .conteudobx .comprar{
+        position: relative;
+        top: 200px;
+        opacity: 0;
+        padding: 10px 30px;
+        margin-top: 5px;
+        color: #ffff;
+        text-decoration: none;
+        background:  #b8ad37; /* botão do leia mais*/
+        border-radius: 30px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: 0.5s;
+      }
+      
+      .cardrac2:hover .conteudobx .comprar{
+        top:0;
+        opacity: 1;
+      }
+      
+      .cardrac2 ul li{
+        color: white;
+      }
+      
+      
+      .cardrac2 h2{
+        font-family: 'BlackChancery', sans-serif;
+        color: #ffffff; /*nome das classes*/
+      }
+
+    
+
+
+    /* Rodape */
+
+
+.footer{
+    background-color: #363636;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+      margin-top: 30px;
+  }
+  
+  .footer p{
+    text-align: center;
+    color: #f7f6f1;
+    padding-top: 50px;
+    margin: 0;
+  }
