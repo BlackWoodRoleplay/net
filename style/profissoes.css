@@ -13,14 +13,11 @@
 
 @import url('http://fonts.cdnfonts.com/css/black-chancery');
 
-@font-face {
-  font-family: BlackCha;
-  src: url('BlackCha.ttf')
-}
 
  
 h2 {
   font-family: 'BlackChancery', sans-serif;
+                                                
   color:#ffffff;
 }
 
@@ -246,6 +243,7 @@ margin-top: -13px;
 .fliph2 h2 {
   color: #ffffff;
   margin-top: 50px;
+  
 }
 
 .fliph2 p {
