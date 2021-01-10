@@ -1,4 +1,4 @@
-/* FONTE */
+/* Geral */
 
 .body{
     margin: 0;
@@ -9,10 +9,12 @@
 
 }
 
-
-
 @import url('http://fonts.cdnfonts.com/css/black-chancery');
 
+@font-face {
+  font-family: 'BlackChancery', sans-serif;
+  src: url(https://www.cdnfonts.com/black-chancery.font);
+}
 
  
 h2 {
@@ -26,6 +28,7 @@ h3{
   font-family: "BlackChancery", sans-serif ;
 }
 
+/* nav mobile */
 .collapse ul a{
 text-decoration-color: #fff;
 }
