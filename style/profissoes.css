@@ -17,20 +17,6 @@
   src: url('BlackCha.ttf')
 }
 
-.posts-content h2 {
-  color:rgb(231, 231, 223);
-}
-
-
-.fliph2 h2 {
-  color: #ffffff;
-  margin-top: 50px;
-}
-
-.fliph2 p {
-  color: rgb(122, 233, 248);
-  font-size: 19px;
-}
  
 h2 {
   font-family: 'BlackChancery', sans-serif;
@@ -145,52 +131,6 @@ text-decoration-color: #fff;
 
 /* carrousel */
 
-.imgslide{
-max-width: 450px;
-}
-
-.texto {
-  position: absolute;
-  color:#fff;
-  text-align: center;
-  top: 130px;
-  min-width: 100%;
-  line-height: 50px;
-  max-height: 30px;
-  text-decoration: none;
-}
-
-.carrousel{
-  background-color: #2E3337;
-}
-
-.carousel-item {
-height: 100vh;
-min-height: 300px;
-background: no-repeat center center scroll;
--webkit-background-size: cover;
--moz-background-size: cover;
-background-size: cover;
-}
-.carousel-caption {
-bottom: 270px;
-}
-
-.carousel-caption h5 {
-font-size: 25px;
-text-transform: uppercase;
-letter-spacing: 3px;
-}
-
-.carousel-caption p {
-font-family: 'Times New Roman', Times, serif ;
-width: 75%;
-margin: auto;
-font-size: 20px;
-line-height: 1.5;
-color: #68ffff;
-}
-
 .navbar{
 background-color: rgba(0,0,0,.4);
 border-bottom-right-radius: 15px;
@@ -204,18 +144,6 @@ max-width: 110px;
 max-height: 110px;
 }
 
-.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
-color: #fff;
-}
-
-.navbar-light .navbar-nav .nav-link {
-color: #fff;
-}
-
-.navbar-toggler {
-background: #fff;
-}
-
 .navbar-nav {
 text-align: center;
 padding: 0px;
@@ -227,19 +155,6 @@ font-size: 1em;
 margin-top: -13px;
 }
 
-.nav-link.active,.nav-link:focus{
-color: #fff;
-}
-
-.navbar-toggler {
-padding: 1px 5px;
-font-size: 18px;
-line-height: 0.3;
-}
-
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-color: #fff;
-}
 
 
 
@@ -259,16 +174,11 @@ color: #fff;
 
 }
 
-.tituloblog h2{
-  color: #ffffff;
-  padding-top: 100px;
-  text-align: center;
-}
 
 
 
 /*  Flipcard - animação dos cards  */ 
-/* Revertar os comentários para aplicar novamente o efeito e ajuste o resto. */
+/* Revertar os comentários para aplicar novamente o efeito e ajustar o resto. */
 .flip-card-back ul li{
   color: white;
   float: left;
@@ -325,6 +235,16 @@ color: #fff;
   background-color:  #363636;
   color: white;
   /* transform: rotateY(180deg); */
+}
+
+.fliph2 h2 {
+  color: #ffffff;
+  margin-top: 50px;
+}
+
+.fliph2 p {
+  color: rgb(122, 233, 248);
+  font-size: 19px;
 }
 
 .center{
