@@ -338,12 +338,13 @@ color: #fff;
 }
 
 .profissoes{
+  margin-top: 150px;
   width: 100%;
   max-width: 1700px;
   height: 100%;
-  padding: 10px;
-  margin: 10px;
-  display:block;  
+  padding: 0px;
+  margin: 0px;
+    
 }
 
 
@@ -351,8 +352,8 @@ color: #fff;
 
 
 .footer{
-	background-color: #363636;
-    width: 100%;
+  background-color: #363636;
+  width: 100%;
   height: 100px;
   position: absolute;
 	margin-top: 30px;
