@@ -1,0 +1,366 @@
+/* FONTE */
+
+.body{
+    margin: 0;
+    padding: 0;
+    background-color: #1C1C1C;
+    margin-bottom: 0;
+
+}
+
+
+
+@import url('http://fonts.cdnfonts.com/css/black-chancery');
+
+@font-face {
+  font-family: BlackCha;
+  src: url('BlackCha.ttf')
+}
+
+.posts-content h2 {
+  color:rgb(231, 231, 223);
+}
+
+
+.fliph2 h2 {
+  color: #ffffff;
+  margin-top: 50px;
+}
+
+.fliph2 p {
+  color: rgb(122, 233, 248);
+  font-size: 19px;
+}
+ 
+h2 {
+  font-family: 'BlackChancery', sans-serif;
+  color:#ffffff;
+}
+
+h3{
+  color: #54d1d1;
+  font-family: "BlackChancery", sans-serif ;
+}
+
+
+
+.full-screen2{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin-top: -30px;
+  clip-path: polygon(0 0, 100% 0, 100% 79%, 67% 69%, 29% 82%, 0 74%);
+}
+
+
+.collapse ul a{
+text-decoration-color: #fff;
+}
+
+.collapse ul{
+  display: flex;
+  margin: 0px 30px;
+  
+}
+
+.collapse ul li{
+  font-family: 'Times New Roman', Times, serif ;
+  list-style: none;
+  margin-left: 35px;
+  padding-left: 15px;
+  padding-top: 15px;
+  
+}
+
+.collapse ul li a{
+  text-decoration: none;
+  font-size: 1em;
+  color: #fff;
+  position: relative;
+}
+
+.collapse ul li a:before{
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #888888;
+  position: absolute;
+  top: 110%;
+  left: 0;
+  transition: .5s;
+  text-decoration: none;
+  
+}
+
+.collapse ul li:hover a:before{
+  text-decoration: none;
+  width: 75px;
+  transform: translateX(-0%);
+}
+
+.collapse ul li:hover a:after{
+  text-decoration: none;
+  width: 50%;
+  transform: translateX(-100%);
+}
+
+/* .collapse ul li a{
+  
+  font-size: 1em;
+  color: #fff;
+  position: relative;
+}
+
+.collapse ul li a:before{
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #888888;;
+  position: absolute;
+  top: 110%;
+  left: 0px;
+  transition: .5s;
+  
+  
+}
+
+.collapse ul li:hover a:before{
+  
+  width: 110px;
+  height: 50px;
+  transform: translateX(100%);
+  transform: translateY(-100%);
+  opacity: 0.4;
+}
+
+.collapse ul li:hover a:after{
+  text-decoration: none;
+  width: 100%;
+  transform: translateX(100%);
+} */
+
+
+
+/* carrousel */
+
+.imgslide{
+max-width: 450px;
+}
+
+.texto {
+  position: absolute;
+  color:#fff;
+  text-align: center;
+  top: 130px;
+  min-width: 100%;
+  line-height: 50px;
+  max-height: 30px;
+  text-decoration: none;
+}
+
+.carrousel{
+  background-color: #2E3337;
+}
+
+.carousel-item {
+height: 100vh;
+min-height: 300px;
+background: no-repeat center center scroll;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+}
+.carousel-caption {
+bottom: 270px;
+}
+
+.carousel-caption h5 {
+font-size: 25px;
+text-transform: uppercase;
+letter-spacing: 3px;
+}
+
+.carousel-caption p {
+font-family: 'Times New Roman', Times, serif ;
+width: 75%;
+margin: auto;
+font-size: 20px;
+line-height: 1.5;
+color: #68ffff;
+}
+
+.navbar{
+background-color: rgba(0,0,0,.4);
+border-bottom-right-radius: 15px;
+border-bottom-left-radius: 15px;
+}
+
+.navbar-light .imgnavbar {
+color: #fff;
+margin-top: 5px;
+max-width: 110px;
+max-height: 110px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+color: #fff;
+}
+
+.navbar-toggler {
+background: #fff;
+}
+
+.navbar-nav {
+text-align: center;
+padding: 0px;
+margin: 0px;
+}
+
+.nav-link {
+font-size: 1em;
+margin-top: -13px;
+}
+
+.nav-link.active,.nav-link:focus{
+color: #fff;
+}
+
+.navbar-toggler {
+padding: 1px 5px;
+font-size: 18px;
+line-height: 0.3;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+color: #fff;
+}
+
+
+
+
+/* Titulo abaixo do header */
+
+.tituloblog .full-screen2 .img{
+  margin-top: 120px;
+  width: 350px;
+}
+
+.tituloblog{
+  width: 100%;
+  height: 300px;
+  background: url('../images/2.jpg');
+  clip-path: polygon(30% 0%, 63% 0, 100% 0, 100% 86%, 50% 100%, 50% 100%, 0 89%, 0 0);
+
+}
+
+.tituloblog h2{
+  color: #ffffff;
+  padding-top: 100px;
+  text-align: center;
+}
+
+
+
+/*  Flipcard - animação dos cards  */ 
+/* Revertar os comentários para aplicar novamente o efeito e ajuste o resto. */
+.flip-card-back ul li{
+  color: white;
+  float: left;
+  font-size: 16px;
+  margin: 6px;
+  margin-left: 50px;
+}
+
+.flip-card {
+  float: left;
+  margin: 50px 15px;
+  background-color: transparent;
+  width: 400px;
+  height: 500px;
+  border: 0px solid #f1f1f1;
+   /* Remove this if you don't want the 3D effect */
+  position: relative;
+  width: calc(23% - 10px);
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+/*.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}*/
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* -webkit-backface-visibility: hidden; -- Safari 
+  backface-visibility: hidden; */
+}
+
+/* Style the front side (fallback if image is missing) */
+/* .flip-card-front {
+  background-image: url("../images/fundo1.png");
+  color: black;
+} */
+
+/* Style the back side */
+.flip-card-back {
+  /* background-image: url("../images/fundo1.png"); */
+  background-color:  #363636;
+  color: white;
+  /* transform: rotateY(180deg); */
+}
+
+.center{
+  transform: translate(12%);
+  
+}
+
+
+.clear{
+  clear: both;
+}
+
+.profissoes{
+  width: 100%;
+  max-width: 1700px;
+  height: 100%;
+  padding: 10px;
+  margin: 10px;
+  display:block;  
+}
+
+
+/* Rodape */
+
+
+.footer{
+	background-color: #363636;
+    width: 100%;
+  height: 100px;
+  position: absolute;
+	margin-top: 30px;
+}
+
+.footer p{
+  text-align: center;
+  color: #f7f6f1;
+  padding-top: 50px;
+  margin: 0;
+}

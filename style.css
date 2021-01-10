@@ -1042,7 +1042,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   width: 400px;
   height: 500px;
   border: 0px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+   /* Remove this if you don't want the 3D effect */
   position: relative;
   width: calc(23% - 10px);
 }
@@ -1094,8 +1094,9 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   color: #f0eef5;
   justify-content: center;
   align-items: center;
-  text-align: left;
+  text-align: center;
 }
+
 
 @media screen and (max-width: 1100px){
  .infos{
