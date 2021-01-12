@@ -145,12 +145,12 @@ text-decoration-color: #fff;
 
       .cardrac2{
         position: relative;
-        width: 350px;
+        width: 330px;
         height: 450px;
         background: black;
         border-radius: 10px;
         overflow: hidden;
-        margin: 20px 60px 20px 20px; /* distancia das imagem */
+        margin: 20px 50px 20px 20px; /* distancia das imagem */
         justify-content: center;
       }
       
