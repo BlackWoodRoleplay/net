@@ -11,8 +11,8 @@
 @import url('http://fonts.cdnfonts.com/css/black-chancery');
 
 @font-face {
-  font-family: BlackCha;
-  src: url('BlackCha.ttf')
+  font-family: BlackChancery;
+  src: url('BlackChancery.ttf')
 }
 
 .posts-content h2 {
@@ -34,7 +34,7 @@
 }
  
 h2 {
-  font-family: "BlackCha" , sans serif ;
+  font-family: "BlackChancery" , sans serif ;
   color:#ffffff;
 }
 
@@ -407,7 +407,7 @@ color: #fff;
   transition: .3s linear;
 }
 /* mudar cor onde fica o texto nas imgs*/
-.post-content{
+.post-content {
   background-color: #363636;
   margin: 0 10px;
   padding: 20px;
@@ -670,7 +670,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   transition: .3s linear;
 }
 /* mudar cor onde fica o texto nas imgs*/
-.posts-content{
+.posts-content {
   background-color: #193656;
   margin: 0 10px;
   padding: 20px;
@@ -708,8 +708,6 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   }
   
 }
-
-
 
 /* Rodape */
 
@@ -1025,66 +1023,6 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   }
 }
 
-/*   Profissoes   */
-
-.flip-card-back ul li{
-  color: white;
-  float: left;
-  font-size: 16px;
-  margin: 6px;
-  margin-left: 50px;
-}
-
-.flip-card {
-  float: left;
-  margin: 50px 15px;
-  background-color: transparent;
-  width: 400px;
-  height: 500px;
-  border: 0px solid #f1f1f1;
-   /* Remove this if you don't want the 3D effect */
-  position: relative;
-  width: calc(23% - 10px);
-}
-
-/* This container is needed to position the front and back side */
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-/* Position the front and back side */
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
-}
-
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  background-image: url("images/Fundo1.png");
-  color: black;
-}
-
-/* Style the back side */
-.flip-card-back {
-  background-image: url("images/Fundo1.png");
-  color: white;
-  transform: rotateY(180deg);
-}
-
-
 /* Donates */
 
 .infos{
@@ -1147,12 +1085,11 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 
-.donatesbody .post .post-content h3{
+.donatesbody .post .post-content h2{
   margin: 0px;
   text-align: center;
-  color: #fef58b; 
+  color: #ffffff; /* cor dos titulos nas images dos donates */
   font-size: 1.2rem;
-  margin-left: -50px;
   opacity: 100%;
 }
 
@@ -1171,7 +1108,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 .donatesbody .blog-posts .post .post-content{
-  background-color: #0017339a;
+  background-color: rgb(0,0,0,0.5) ; /* cor do balao onde fica o titulo nos donates */
   margin: 0 0px;
   padding: 5px;
   border-radius: 6px;
@@ -1204,9 +1141,6 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 .hidden-content {display: none;font-size: 0.9em;line-height: 1.2;width: 180px;margin: 0 auto;color: #fff;}
 .hidden-content img {width: 160px;margin-bottom: 5px;}
 
-
-/* classes */
-
 iframe{
   border-radius: 10px;
 }
@@ -1218,24 +1152,11 @@ iframe{
   }
 }
 
-
-.classesgrid{
-  border-radius: 10px;
-  background-color: #ffffff0c;
-  margin: 15px;
-}
-
 .maisraças h2{
   color: #fef58b;
   font-size: 2rem;
   text-align: center;
   justify-content: center;
-  margin-top: 10px;
-}
-
-.classesgrid h2{
-  color: #fef58b;
-  font-size: 1.5rem;
   margin-top: 10px;
 }
 
@@ -1250,114 +1171,4 @@ iframe{
   font-size: 1.3rem;
   margin-top: 10px;
   margin: 10px;
-}
-
-.cardrac2{
-  position: relative;
-  width: 350px;
-  height: 450px;
-  background: black;
-  border-radius: 10px;
-  overflow: hidden;
-  margin: 20px 60px 20px 20px; /* distancia das imagem */
-  justify-content: center;
-}
-
-.cardrac2::before{
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-image: url("images/fundo1.png");
-  transition: 0.5s;
-}
-
-
-.cardrac2::after{
-  content: '';
-  position: absolute;
-  bottom: 250px;
-  left: 50px;
-  font-weight: 600;
-  font-size: 3em;
-  padding-right: 0px;
-  color:white;
-}
-
-
-.cardrac2 .imgbx{
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  padding-left: 0px;
-  padding-top: 0px;
-  z-index: 1;
-}
-
-.cardrac2 .imgbx img{
-  max-width: 100%;
-  transition: 0.5s;
-}
-
-.cardrac2:hover .imgbx img{
-  max-width: 10%;
-  opacity: 0%;
-}
- 
-.cardrac2 .conteudobx{
-  position: relative;
-  padding: 18px;
-  padding-top: 17px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  z-index: 1;
-  font-size: 12px;
-  margin-top: -30px;
-}
-
-
-.cardrac2 .conteudobx p{
-  color: rgb(255, 255, 255);
-  font-size: 15px;
-}
-
-.cardrac2 .conteudobx .preço{
-  font-size: 15px;
-  color:  #cfc232; /* cor dos atributos*/
-  font-weight: 500;
-  letter-spacing: 1px; 
-}
-
-.cardrac2 .conteudobx .comprar{
-  position: relative;
-  top: 200px;
-  opacity: 0;
-  padding: 10px 30px;
-  margin-top: 5px;
-  color: #ffff;
-  text-decoration: none;
-  background:  #b8ad37; /* botão do leia mais*/
-  border-radius: 30px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  transition: 0.5s;
-}
-
-.cardrac2:hover .conteudobx .comprar{
-  top:0;
-  opacity: 1;
-}
-
-.cardrac2 ul li{
-  color: white;
-}
-
-
-.cardrac2 h2{
-  font-family: BlackCha;
-  color: #ffffff; /*nome das classes*/
 }
