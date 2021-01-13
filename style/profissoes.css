@@ -154,6 +154,8 @@ margin-top: -13px;
 .img2{
   width: 350px;
   margin-top: 50px;
+  margin-left: -25px;
+  margin-bottom: 5px;
 }
 
 
@@ -239,7 +241,7 @@ margin-top: -13px;
 .fliph2 ol{
   list-style: circle;
   text-align: left;
-  margin-left: 60px;
+  margin-left: 45px;
   margin-top: 45px;
 }
 
