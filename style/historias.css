@@ -1,0 +1,395 @@
+/* Geral */
+
+.body{
+    margin: 0;
+    padding: 0;
+    background-color: #1C1C1C;
+    margin-bottom: 0;
+    width: 100%;
+
+}
+
+
+.clear{
+    clear: both;
+}
+
+@import url('http://fonts.cdnfonts.com/css/black-chancery');
+
+ 
+h2 {
+  font-family: 'BlackChancery', sans-serif;
+                                                
+  color:#ffffff;
+}
+
+h3{
+  color: #54d1d1;
+  font-family: "BlackChancery", sans-serif ;
+}
+
+/* nav mobile */
+.collapse ul a{
+text-decoration-color: #fff;
+}
+
+.collapse ul{
+  display: flex;
+  margin: 0px 30px;
+  
+}
+
+.collapse ul li{
+  font-family: 'Times New Roman', Times, serif ;
+  list-style: none;
+  margin-left: 35px;
+  padding-left: 15px;
+  padding-top: 15px;
+  
+}
+
+.collapse ul li a{
+  text-decoration: none;
+  font-size: 1em;
+  color: #fff;
+  position: relative;
+}
+
+.collapse ul li a:before{
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #888888;
+  position: absolute;
+  top: 110%;
+  left: 0;
+  transition: .5s;
+  text-decoration: none;
+  
+}
+
+.collapse ul li:hover a:before{
+  text-decoration: none;
+  width: 75px;
+  transform: translateX(-0%);
+}
+
+.collapse ul li:hover a:after{
+  text-decoration: none;
+  width: 50%;
+  transform: translateX(-100%);
+}
+
+
+/* carrousel */
+
+.navbar{
+    background-color: rgba(0,0,0,.4);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    }
+    
+    .navbar-light .imgnavbar {
+    color: #fff;
+    margin-top: 5px;
+    max-width: 110px;
+    max-height: 110px;
+    }
+    
+    .navbar-nav {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    }
+    
+    .nav-link {
+    font-size: 1em;
+    margin-top: -13px;
+    }
+
+    
+    /* Titulo abaixo do header */
+    
+    .content{
+      text-align: center; 
+    }
+    
+    .img{
+      width: 350px;
+      margin-top: 120px;
+    }
+    
+    
+    .tituloblog{
+      width: 100%;
+      max-width: 5000px;
+      height: 100%;
+      margin-right: -50px;
+      min-height: 350px;
+      background-image: url('../images/2.jpg');
+      background-size: cover;
+      background-repeat: repeat-x;
+      clip-path: polygon(30% 0%, 63% 0, 100% 0, 100% 86%, 50% 100%, 50% 100%, 0 89%, 0 0);
+    
+    }
+
+    /*---------------*/
+/***** Zoe *****/
+/*---------------*/
+
+figure.effect-zoe figcaption {
+	top: auto;
+	bottom: 0;
+	padding: 1em;
+	height: 3.75em;
+	background: rgb(0,0,0,0.5); /*muda a cor do fundo em historias*/
+	color: #00;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,100%,0);
+	transform: translate3d(0,100%,0);
+}
+
+figure.effect-zoe h2 {
+  float: center;
+  padding-top: 50px;
+}
+
+figure.effect-zoe:hover p.icon-links a:hover,
+figure.effect-zoe:hover p.icon-links a:focus {
+	color: #c6e1ee;
+}
+
+figure.effect-zoe p.description {
+	position: absolute;
+	bottom: 8em;
+	padding: 2em;
+	color: rgb(223, 236, 240);
+	text-transform: none;
+	font-size: 90%;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+	-webkit-backface-visibility: hidden; /* Fix for Chrome 37.0.2062.120 (Mac) */
+}
+
+figure.effect-zoe h2,
+figure.effect-zoe p.icon-links a {
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,200%,0);
+	transform: translate3d(0,200%,0);
+}
+
+figure.effect-zoe p.icon-links a span::before {
+	display: inline-block;
+	padding: 8px 10px;
+	font-family: 'feathericons';
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+    figure.effect-zoe h2 {
+        display: inline-block;
+    }
+    
+    figure.effect-zoe:hover p.description {
+        opacity: 1;
+    }
+    
+    figure.effect-zoe:hover figcaption,
+    figure.effect-zoe:hover h2,
+    figure.effect-zoe:hover p.icon-links a {
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+    
+    figure.effect-zoe:hover h2 {
+        -webkit-transition-delay: 0.05s;
+        transition-delay: 0.05s;
+    }
+    
+    figure.effect-zoe:hover p.icon-links a:nth-child(3) {
+        -webkit-transition-delay: 0.1s;
+        transition-delay: 0.1s;
+    }
+    
+    figure.effect-zoe:hover p.icon-links a:nth-child(2) {
+        -webkit-transition-delay: 0.15s;
+        transition-delay: 0.15s;
+    }
+    
+    figure.effect-zoe:hover p.icon-links a:first-child {
+        -webkit-transition-delay: 0.2s;
+        transition-delay: 0.2s;
+    }
+
+
+
+    .effect-zoe h2 {
+        color: rgb(247, 241, 241);
+      }
+
+      .grid {
+        position: relative;
+        margin: 0 auto;
+        padding: 1em 0 4em;
+        max-width: 1000px;
+        list-style: none;
+        text-align: center;
+    }
+
+    /* Common style */
+.grid figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 10px 1%;
+	min-width: 320px;
+	max-width: 480px;
+	max-height: 360px;
+	width: 48%;
+	background: #3085a3; /* leve mudança na cor do fundo da historia */
+	text-align: center;
+	cursor: pointer;
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	max-width: 100%;
+	opacity: 0.8;
+}
+
+.grid figure figcaption {
+	padding: 2em;
+	color: rgb(238, 240, 247);
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+      /* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.grid figure h2 {
+	word-spacing: -0.15em;
+	font-weight: 300;
+}
+
+.grid figure h2 span {
+	font-weight: 800;
+}
+
+.grid figure h2,
+.grid figure p {
+	margin: 0;
+}
+
+.grid figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+.blogs-posts{
+    width: min(1500px, 100%);
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    cursor: pointer;
+  }
+  
+  .posts{
+    width: calc(33% - 20px);
+    overflow: hidden;
+  }
+  
+  .posts-img{
+    width: 100%;
+    border-radius: 6px;
+    transition: .3s linear;
+  }
+  /* mudar cor onde fica o texto nas imgs*/
+  .posts-content {
+    background-color: #193656;
+    margin: 0 10px;
+    padding: 20px;
+    border-radius: 6px;
+    transform: translateY(-60px);
+    transition: .3s linear;
+  }
+  
+  .posts-content h3{
+    font-size: 16px;
+    margin-bottom: 5px;
+    color:#f7f6f1;
+  }
+  
+  .date{
+    font-size: 15px;
+    font-style: italic;
+    color: #e77f67;
+  }
+  
+  .posts:hover .post-img{
+    transform: translateY(20px);
+  }
+  
+  .posts:hover .posts-content{
+    transform: translateY(-80px);
+  }
+  
+  @media screen and (max-width: 1100px){
+    .blogs-posts{
+      justify-content: center;
+    }
+    .posts{
+      width: min(600px, 100%);
+    }
+    
+  }
+
+
+
+
+    /* Rodape */
+
+
+.footer{
+    background-color: #363636;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+      margin-top: 30px;
+  }
+  
+  .footer p{
+    text-align: center;
+    color: #f7f6f1;
+    padding-top: 50px;
+    margin: 0;
+  }
