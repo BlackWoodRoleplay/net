@@ -918,14 +918,16 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 .maisraças{
-  margin: 50px;
-  margin-left: 170px;
-  margin-right: 170px;
+  width: 900px;
+  height: 200px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  text-align: center;
   color: rgb(255, 255, 255);
-  justify-content: center;
-  align-items: center;
   background-color: #ffffff0c;
   border-radius: 10px;
+  position: relative;
+  padding: 30px 20px 20px 20px;
   
 }
 
@@ -936,7 +938,8 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 .maisraças p{
-  margin: 10px;
+  
+  text-align: center;
   padding-bottom: 20px;
 }
 @media screen and (max-width: 1100px){
