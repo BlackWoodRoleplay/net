@@ -148,9 +148,10 @@ text-decoration-color: #fff;
         width: 330px;
         height: 450px;
         background: black;
-        border-radius: 10px;
+        border-radius: 20px;
         overflow: hidden;
-        margin: 20px 50px 20px 20px; /* distancia das imagem */
+		
+        margin: 30px 60px 30px 60px; /* distancia das imagem */
         justify-content: center;
       }
       
