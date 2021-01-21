@@ -135,7 +135,6 @@ text-decoration-color: #fff;
 
 /* BOX */
 
-
 #box_geral{
     max-width:900px;
     width: 100%;
@@ -168,7 +167,7 @@ text-decoration-color: #fff;
     padding:10px;
     color: white;
     height: 100%;
-    max-height: 200px;
+    max-height: 2000px;
     }
 
     #box_geral2{
@@ -203,7 +202,7 @@ text-decoration-color: #fff;
       padding:10px;
       color: white;
       height: 100%;
-      max-height: 200px;
+      max-height: 2000px;
       }
 
 
@@ -239,7 +238,7 @@ text-decoration-color: #fff;
         padding:10px;
         color: white;
         height: 100%;
-        max-height: 200px;
+        max-height: 2000px;
         }
 
 
