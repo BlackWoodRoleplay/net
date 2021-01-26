@@ -32,7 +32,7 @@ jQuery.fn.toggleText = function(a,b) {
 
 
     $(document).ready(function(){
-        $('.box3').before('<span><img src="titulo/breve.png"></span>');
+        $('.box3').before('<span><img src="titulo/portal.png"></span>');
         $('.box3').css('display', 'none')
         $('span', '#box_geral3').click(function() {
             $(this).next().slideToggle('slow')
