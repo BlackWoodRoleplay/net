@@ -9,10 +9,6 @@
 
 }
 
-.clear{
-    clear: both;
-}
-
 @import url('http://fonts.cdnfonts.com/css/black-chancery');
 
  
@@ -134,9 +130,6 @@ text-decoration-color: #fff;
 
 
 
-    
-
-
 
 
     /* Rodape */
@@ -147,7 +140,7 @@ text-decoration-color: #fff;
     width: 100%;
     height: 100px;
     position: absolute;
-    margin-top: 30px;
+      margin-top: 30px;
   }
   
   .footer p{
