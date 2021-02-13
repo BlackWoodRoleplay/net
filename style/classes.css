@@ -110,8 +110,10 @@ text-decoration-color: #fff;
     }
     
     .img{
-      width: 350px;
-      margin-top: 120px;
+      margin-top: 130px;
+      max-width: 350px;
+      width: 98%;
+      height: 98%;
     }
     
     
