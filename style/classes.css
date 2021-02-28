@@ -239,6 +239,11 @@ text-decoration-color: #fff;
         text-transform: uppercase;
         letter-spacing: 1px;
         transition: 0.5s;
+      
+      }
+
+      .conteudobx > p{
+        text-align: center;
       }
       
       .cardrac2:hover .conteudobx .comprar{
@@ -255,6 +260,10 @@ text-decoration-color: #fff;
         font-family: 'BlackChancery', sans-serif;
         color: #ffffff; /*nome das classes*/
       }
+
+
+
+     
 
     
 
