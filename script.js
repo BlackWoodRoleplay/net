@@ -43,3 +43,29 @@ jQuery.fn.toggleText = function(a,b) {
             .toggleText('Mostrar','Esconder')
     });
     })
+	
+	$(document).ready(function(){
+        $('.box4').before('<span><img src="titulo/furia.png"></span>');
+        $('.box4').css('display', 'none')
+        $('span', '#box_geral4').click(function() {
+            $(this).next().slideToggle('slow')
+            .siblings('.tgl:visible').slideToggle('fast');
+    // aqui começa o funcionamento do plugin
+            $(this).toggleText('Mostrar','Esconder')
+            .siblings('span').next('.tgl:visible').prev()
+            .toggleText('Mostrar','Esconder')
+    });
+    })
+	
+	$(document).ready(function(){
+        $('.box5').before('<span><img src="titulo/breve.png"></span>');
+        $('.box5').css('display', 'none')
+        $('span', '#box_geral5').click(function() {
+            $(this).next().slideToggle('slow')
+            .siblings('.tgl:visible').slideToggle('fast');
+    // aqui começa o funcionamento do plugin
+            $(this).toggleText('Mostrar','Esconder')
+            .siblings('span').next('.tgl:visible').prev()
+            .toggleText('Mostrar','Esconder')
+    });
+    })
