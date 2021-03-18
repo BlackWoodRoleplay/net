@@ -115,11 +115,12 @@ text-decoration-color: #fff;
       width: 98%;
       height: 98%;
     }
+
     
     
     .tituloblog{
       width: 100%;
-      max-width: 5000px;
+      max-width: 2000px;
       height: 100%;
       margin-right: -50px;
       min-height: 350px;
@@ -132,17 +133,78 @@ text-decoration-color: #fff;
 
     /* CARDS */
 
-    .raçasfund2{
-        background-color:#1C1C1C;
-        margin-top: 50px;
+    .botão{
+      position: relative;
+      margin-bottom: 30px;
+      top: 0;
+      left: 50%;
+      transform: translate(-50%);
+
+    }
+
+    .img2{
+      max-width: 589px;
+      width: 100%;
+      max-height: 196px;
+      height: 100%;
+      position: relative;
+      margin-bottom: 30px;
+      top: 0;
+      left: 50%;
+      transform: translate(-50%);
+    }
+
+
+    .img3{
+      max-width: 589px;
+      width: 100%;
+      max-height: 196px;
+      height: 100%;
+      position: relative;
+      margin-bottom: 30px;
+      top: 0;
+      left: 0;
+      transform: translate(50%);
+    }
+
+
+    .fullcards{
+      height: 100%;
+      max-width: 2000px;
+      width: 98%;
+    }
+
+    .bodycard02{
+      margin: 30px;
+      display: block;
+      max-width: 2000px;
+      position: relative;
+      width: 98%;
+      background-color: #2e2e2e;
+      border-radius: 50px;
+     padding: 10px;
+    }
+
+
+      .cards{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
       }
-       
-      .bodycard02{
+      
+
+      .bodycard03{
+        margin: 30px;
         display: flex;
         align-items: center;
-        width: 100%;
+        max-width: 2000px;
+        width: 98%;
         flex-wrap: wrap;
         justify-content: center;
+        background-color: #2e2e2e;
+        border-radius: 50px;
+        padding: 30px 30px 30px 30px;
       }
       
       .cardrac{
@@ -155,30 +217,9 @@ text-decoration-color: #fff;
         margin: 10px; /* distancia das imagem */
         justify-content: center;
       }
+            
       
-      .cardrac::before{
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background-image: url("images/fundo1.png");
-        transition: 0.5s;
-      }
-      
-      
-      .cardrac::after{
-        content: '';
-        position: absolute;
-        bottom: 250px;
-        left: 50px;
-        font-weight: 600;
-        font-size: 3em;
-        padding-right: 0px;
-        color:white;
-      }
-      
-      
-      .cardrac .imgbx{
+      .imgbx{
         position: relative;
         width: 100%;
         display: flex;
@@ -189,14 +230,19 @@ text-decoration-color: #fff;
         z-index: 1;
       }
       
-      .cardrac .imgbx img{
+      .imgbx img{
         max-width: 100%;
-        transition: 0.5s;
+        transition: 0.65s;
       }
       
       .cardrac:hover .imgbx img{
         max-width: 10%;
         opacity: 0%;
+      }
+
+      .cardrac:hover .conteudobx .comprar{
+        top:0;
+        opacity: 1;
       }
        
       .conteudobx p {
@@ -204,7 +250,8 @@ text-decoration-color: #fff;
         font-size: 15px;
         text-align: center;
       }
-      .cardrac .conteudobx{
+
+      .conteudobx{
         position: relative;
         padding: 18px;
         padding-top: 17px;
@@ -217,20 +264,16 @@ text-decoration-color: #fff;
         margin-top: -30px;
       }
       
+    
       
-      .cardrac .conteudobx p{
-        color: rgb(255, 255, 255);
-        font-size: 15px;
-      }
-      
-      .cardrac .conteudobx .preço{
+      .conteudobx .preço{
         font-size: 15px;
         color:  #cfc232; /* cor dos atributos*/
         font-weight: 500;
         letter-spacing: 1px; 
       }
       
-      .cardrac .conteudobx .comprar{
+      .conteudobx .comprar{
         position: relative;
         top: 200px;
         opacity: 0;
@@ -244,24 +287,6 @@ text-decoration-color: #fff;
         letter-spacing: 1px;
         transition: 0.5s;
       }
-      
-      .cardrac:hover .conteudobx .comprar{
-        top:0;
-        opacity: 1;
-      }
-      
-      .cardrac ul li{
-        color: white;
-      }
-      
-      
-      .cardrac h2{
-        font-family: "BlackChancery", sans-serif;
-        color: #ffffff; /*nome das raças*/
-      }
-
-
-
 
 
     /* Rodape */
