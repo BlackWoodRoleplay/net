@@ -132,10 +132,7 @@ text-decoration-color: #fff;
 
     /* CARDRAC */
 
-    .raçasfund2{
-        background-color:#1C1C1C;
-        margin-top: 30px;
-      }
+    
        
       .bodycard02{
         display: flex;
@@ -147,125 +144,71 @@ text-decoration-color: #fff;
 
       .cardrac2{
         position: relative;
-        width: 330px;
+        width: 300px;
         height: 450px;
-        background: black;
-        border-radius: 20px;
+        background: #363636;
+        border-radius: 10px;
         overflow: hidden;
-		
-        margin: 30px 40px 30px 40px; /* distancia das imagem */
-        justify-content: center;
+        margin: 50px 10px 50px 10px; 
+        
       }
-      
-      .cardrac2::before{
-        content: '';
-        position: absolute;
+            
+       .imgbx{
+        position: relative;
+        background-image: url(../images/swordman.jpg);
+        background-repeat: no-repeat;
+        background-size: 300px 450px;        
         width: 100%;
         height: 100%;
-        background-color: #363636;
-        transition: 0.5s;
+        display:block;
+       }
+      
+
+      .imgbx img{
+        position:relative;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%);
       }
-      
-      
-      .cardrac2::after{
-        content: '';
-        position: absolute;
-        bottom: 250px;
-        left: 50px;
-        font-weight: 600;
-        font-size: 3em;
-        padding-right: 0px;
-        color:white;
-      }
-      
-      
-      .cardrac2 .imgbx{
+
+      .imgbx2{
         position: relative;
+        background-image: url(../images/mage.jpg);
+        background-repeat: no-repeat;
+        background-size: 300px 450px;        
         width: 100%;
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        padding-left: 0px;
-        padding-top: 0px;
-        z-index: 1;
-      }
+        height: 100%;
+        display:block;
+       }
       
-      .cardrac2 .imgbx img{
-        max-width: 100%;
-        transition: 0.5s;
+
+      .imgbx2 img{
+        position:relative;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%);
       }
-      
-      .cardrac2:hover .imgbx img{
-        max-width: 10%;
-        opacity: 0%;
-      }
-       
-      .cardrac2 .conteudobx{
+
+      .imgbx3{
         position: relative;
-        padding: 18px;
-        padding-top: 17px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        z-index: 1;
-        font-size: 12px;
-        margin-top: -30px;
-      }
+        background-image: url(../images/cleric.jpg);
+        background-repeat: no-repeat;
+        background-size: 300px 450px;
+        width: 100%;
+        height: 100%;
+        display:block;
+       }
       
-      
-      .cardrac2 .conteudobx p{
-        color: rgb(255, 255, 255);
-        font-size: 15px;
-      }
-      
-      .cardrac2 .conteudobx .preço{
-        font-size: 15px;
-        color:  #cfc232; /* cor dos atributos*/
-        font-weight: 500;
-        letter-spacing: 1px; 
-      }
-      
-      .cardrac2 .conteudobx .comprar{
-        position: relative;
-        top: 200px;
-        opacity: 0;
-        padding: 10px 30px;
-        margin-top: 5px;
-        color: #ffff;
-        text-decoration: none;
-        background:  #b8ad37; /* botão do leia mais*/
-        border-radius: 30px;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        transition: 0.5s;
-      
+
+      .imgbx3 img{
+        position:relative;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%);
       }
 
-      .conteudobx > p{
-        text-align: center;
-      }
       
-      .cardrac2:hover .conteudobx .comprar{
-        top:0;
-        opacity: 1;
-      }
-      
-      .cardrac2 ul li{
-        color: white;
-      }
-      
-      
-      .cardrac2 h2{
-        font-family: 'BlackChancery', sans-serif;
-        color: #ffffff; /*nome das classes*/
-      }
-
-
-
-     
-
-    
+         
 
 
     /* Rodape */
