@@ -136,9 +136,9 @@ text-decoration-color: #fff;
     .botão{
       position: relative;
       margin-bottom: 30px;
-      top: 0;
-      left: 50%;
-      transform: translate(-50%);
+      top: 0%;
+      left: 0%;
+      transform: translate (-50%);
 
     }
 
@@ -214,7 +214,7 @@ text-decoration-color: #fff;
         background: #363636;
         border-radius: 10px;
         overflow: hidden;
-        margin: 10px; /* distancia das imagem */
+        margin: 7.5px; /* distancia das imagem */
         justify-content: center;
       }
             
