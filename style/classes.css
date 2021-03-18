@@ -155,7 +155,7 @@ text-decoration-color: #fff;
             
        .imgbx{
         position: relative;
-        background-image: url(../images/swordman.jpg);
+        background-image: url(../imagesclass/swordman.jpg);
         background-repeat: no-repeat;
         background-size: 300px 450px;        
         width: 100%;
@@ -173,7 +173,7 @@ text-decoration-color: #fff;
 
       .imgbx2{
         position: relative;
-        background-image: url(../images/mage.jpg);
+        background-image: url(../imagesclass/mage.jpg);
         background-repeat: no-repeat;
         background-size: 300px 450px;        
         width: 100%;
@@ -191,7 +191,7 @@ text-decoration-color: #fff;
 
       .imgbx3{
         position: relative;
-        background-image: url(../images/cleric.jpg);
+        background-image: url(../imagesclass/cleric.jpg);
         background-repeat: no-repeat;
         background-size: 300px 450px;
         width: 100%;
