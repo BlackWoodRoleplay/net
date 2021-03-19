@@ -171,44 +171,75 @@ text-decoration-color: #fff;
         transform: translate(-50%);
       }
 
-      .imgbx2{
-        position: relative;
-        background-image: url(../imagesclass/mage.jpg);
-        background-repeat: no-repeat;
-        background-size: 300px 450px;        
-        width: 100%;
-        height: 100%;
-        display:block;
-       }
+/*balao*/
+
+.image {
+  background-color: #363636;
+  margin-top: -13px;
+  width: 300px;
+  height: 80px;
+  align-items: center;
+}
+
+.image2 {
+  background-color: #363636;
+  margin-top: -13px;
+  width: 300px;
+  height: 80px;
+  align-items: center;
+}
+
+.image3 {
+  background-color: #363636;
+  margin-top: -13px;
+  width: 300px;
+  height: 80px;
+  align-items: center;
+}
       
+---
 
-      .imgbx2 img{
-        position:relative;
-        top: 80%;
-        left: 50%;
-        transform: translate(-50%);
-      }
+.post{
+  width: calc(33% - 20px);
+  overflow: invisible;
+}
 
-      .imgbx3{
-        position: relative;
-        background-image: url(../imagesclass/cleric.jpg);
-        background-repeat: no-repeat;
-        background-size: 300px 450px;
-        width: 100%;
-        height: 100%;
-        display:block;
-       }
-      
+.post-img{
+  border-radius: 6px;
+  transition: .3s linear;
+  width: 300px;
+  height: 450px;
+  background: #363636;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 50px 10px 50px 10px; 
+}
 
-      .imgbx3 img{
-        position:relative;
-        top: 80%;
-        left: 50%;
-        transform: translate(-50%);
-      }
+.post-content {
+  background-color: #363636; /* mudar cor onde fica o texto nas imgs*/
+  margin: 0 10px;
+  border-radius: 6px;
+  transform: translateY(-60px);
+  transition: .3s linear;
+}
 
-      
-         
+.post:hover .post-img{
+  transform: translateY(20px);
+}
+
+.post:hover .post-content{
+  transform: translateY(-80px);
+}
+
+@media screen and (max-width: 1100px){
+  .blog-posts{
+    justify-content: center;
+  }
+  .post{
+    width: min(600px, 100%);
+  }
+  
+}
 
 
     /* Rodape */
