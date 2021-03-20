@@ -138,16 +138,7 @@ transform: translateX(-100%);
   
   }
 
-.container2{
-margin: 3% auto;
-height: 98%;
-max-width: 1500px;
-width: 97%;
-text-align: center;
-background-color: #2e2e2e;
-border-radius: 50px;
-padding: 30px 30px 30px 30px;
-}
+
 
 .item{
 position: relative;
@@ -165,24 +156,38 @@ color: white;
 max-width: 450px;
 width: 98%;
 height: 100%;
+margin-bottom: 10px;
 }
 
 .img2{
 max-width: 450px;
-width: 98%;
+max-height: 550px;
+width: 100%;
 height: 100%;
+border-radius: 15px;
 }
 
 .flex{
-display: flex;	
+display: flex;
+margin: 3% auto;
+height: 98%;
+max-width: 1200px;
+width: 97%;
+text-align: center;
+background-color: #2e2e2e;
+border-radius: 50px;
+padding: 30px 30px 30px 30px;	
 }
 
-.grow0 {
+.grow-0 {
 	flex-grow: 0;
+  margin-left: 60px;
 }
 
-.grow1 {
+.grow-1 {
 	flex-grow: 1;
+  margin-right: 60px;
+  
 }
 
   /* Rodape */
