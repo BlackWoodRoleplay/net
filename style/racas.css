@@ -136,10 +136,9 @@ text-decoration-color: #fff;
     .botão{
       position: relative;
       margin-bottom: 30px;
+      margin-top: 30px;
       top: 0%;
       left: 0%;
-      
-
     }
 
     .img2{
@@ -220,7 +219,7 @@ text-decoration-color: #fff;
         border-radius: 10px;
         overflow: hidden;
         justify-content: center;
-        margin: 10px;
+        margin: 5px;
       }
             
       
