@@ -174,7 +174,6 @@ text-decoration-color: #fff;
 
     .bodycard02{
       margin: 30px;
-      display: block;
       max-width: 2000px;
       position: relative;
       width: 98%;
@@ -237,6 +236,7 @@ text-decoration-color: #fff;
       .imgbx img{
         max-width: 100%;
         transition: 0.65s;
+        margin-bottom: 60px;
       }
       
       .cardrac:hover .imgbx img{
