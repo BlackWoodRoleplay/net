@@ -125,6 +125,12 @@ text-decoration-color: #fff;
     border-radius: 50px;
     padding: 30px 30px 30px 30px;
   }
+  
+    .img3{
+    height: 98%;
+    max-width: 150px;
+    width: 98%;
+  }
 
     .img2{
       max-width: 400px;
@@ -144,7 +150,7 @@ text-decoration-color: #fff;
       background-repeat: repeat-x;
       clip-path: polygon(30% 0%, 63% 0, 100% 0, 100% 86%, 50% 100%, 50% 100%, 0 89%, 0 0);
     
-    }
+  }
 
 
     /* Donates */
