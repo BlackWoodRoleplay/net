@@ -142,12 +142,17 @@ margin-top: -13px;
 /* Instruções */
 
 .instrucao{
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
+  margin: 2% auto;
+  height: 98%;
+  max-width: 1000px;
+  width: 97%;
+  text-align: center;
 }
 
 .instrucao p{
-    font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 
@@ -156,7 +161,7 @@ margin-top: -13px;
 /* Fomulário para envio de nota fiscal */
 
 .form{
-    margin: 3% auto;
+  margin: 3% auto;
   height: 98%;
   max-width: 500px;
   width: 97%;
