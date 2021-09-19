@@ -217,12 +217,14 @@ margin-top: -13px;
     cursor: pointer;
     transition: 0.3s;
   }
+
   .formulario > a{
     margin-top: 0.8rem;
     display: block;
     padding: 0.8rem;
     color: #1C1C1C;
     background-color: white;
+    outline: none;
     font: inherit;
     border: none;
     border-radius: 8px;
