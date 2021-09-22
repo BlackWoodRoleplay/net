@@ -9,6 +9,44 @@
 
 }
 
+/* Botão Pagamento */
+
+/* .pagamento{
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  width: min(20rem, 90%);
+  display: block;
+  text-decoration: none;
+  padding: 0.8rem;
+  color: #1C1C1C;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.pagamento > a{
+  color: #1C1C1C;
+  outline: none;
+  font: inherit;
+  transition: 0.3s;
+}
+
+.pagamento:hover,
+.pagamento:focus{
+  color: white;
+  background: #888888;
+  text-decoration: #f0eef5;
+}
+
+.pagamento > a:hover{
+  color: #f0eef5;
+  outline: none;
+} */
+
+
 @import url('http://fonts.cdnfonts.com/css/black-chancery');
 
  
@@ -151,6 +189,8 @@ text-decoration-color: #fff;
       clip-path: polygon(30% 0%, 63% 0, 100% 0, 100% 86%, 50% 100%, 50% 100%, 0 89%, 0 0);
     
   }
+
+  
 
 
     /* Donates */

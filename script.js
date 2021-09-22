@@ -69,3 +69,15 @@ jQuery.fn.toggleText = function(a,b) {
             .toggleText('Mostrar','Esconder')
     });
     })
+
+
+
+    // Toggle menu on click
+// const nav = document.querySelector('#header nav')
+// const toggle = document.querySelectorAll('nav .toggle');
+
+// for(const element of toggle){
+//     element.addEventListener('click', function(){
+//         nav.classList.toggle('show')
+//     })
+// }
