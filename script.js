@@ -32,7 +32,7 @@ jQuery.fn.toggleText = function(a,b) {
 
 
     $(document).ready(function(){
-        $('.box3').before('<span><img src="titulo/breve.png"></span>');
+        $('.box3').before('<span><img src="titulo/story3.png"></span>');
         $('.box3').css('display', 'none')
         $('span', '#box_geral3').click(function() {
             $(this).next().slideToggle('slow')
@@ -45,7 +45,7 @@ jQuery.fn.toggleText = function(a,b) {
     })
 	
 	$(document).ready(function(){
-        $('.box4').before('<span><img src="titulo/breve.png"></span>');
+        $('.box4').before('<span><img src="titulo/story4.png"></span>');
         $('.box4').css('display', 'none')
         $('span', '#box_geral4').click(function() {
             $(this).next().slideToggle('slow')
