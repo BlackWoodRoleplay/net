@@ -94,9 +94,8 @@ transform: translateX(-100%);
   
   .navbar-light .imgnavbar {
   color: #fff;
-  margin-top: 5px;
-  max-width: 110px;
-  max-height: 110px;
+  max-width: 70px;
+  max-height: 70px;
   }
   
   .navbar-nav {

@@ -93,9 +93,8 @@ border-bottom-left-radius: 15px;
 
 .navbar-light .imgnavbar {
 color: #fff;
-margin-top: 5px;
-max-width: 110px;
-max-height: 110px;
+max-width: 70px;
+max-height: 70px;
 }
 
 .navbar-nav {
@@ -117,7 +116,7 @@ margin-top: -13px;
 }
 
 .img{
-    margin-top: 130px;
+    margin-top: 150px;
     max-width: 350px;
     width: 98%;
     height: 98%;

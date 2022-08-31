@@ -86,9 +86,8 @@ text-decoration-color: #fff;
     
 .navbar-light .imgnavbar {
   color: #fff;
-  margin-top: 5px;
-  max-width: 110px;
-  max-height: 110px;
+  max-width: 70px;
+  max-height: 70px;
 }
     
 .navbar-nav {
@@ -110,8 +109,8 @@ text-decoration-color: #fff;
 }
 
 .img{
-  margin-top: 100px;
-  max-width: 300px;
+  margin-top: 150px;
+  max-width: 350px;
   width: 98%;
   height: 98%;
 }

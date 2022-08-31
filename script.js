@@ -82,32 +82,7 @@ jQuery.fn.toggleText = function(a,b) {
             .toggleText('Mostrar','Esconder')
     });
     })
-
-    $(document).ready(function(){
-        $('.box7').before('<span><img src="titulo/breve.png"></span>');
-        $('.box7').css('display', 'none')
-        $('span', '#box_geral7').click(function() {
-            $(this).next().slideToggle('slow')
-            .siblings('.tgl:visible').slideToggle('fast');
-    // aqui começa o funcionamento do plugin
-            $(this).toggleText('Mostrar','Esconder')
-            .siblings('span').next('.tgl:visible').prev()
-            .toggleText('Mostrar','Esconder')
-    });
-    })
-
-    $(document).ready(function(){
-        $('.box8').before('<span><img src="titulo/breve.png"></span>');
-        $('.box8').css('display', 'none')
-        $('span', '#box_geral8').click(function() {
-            $(this).next().slideToggle('slow')
-            .siblings('.tgl:visible').slideToggle('fast');
-    // aqui começa o funcionamento do plugin
-            $(this).toggleText('Mostrar','Esconder')
-            .siblings('span').next('.tgl:visible').prev()
-            .toggleText('Mostrar','Esconder')
-    });
-    })    
+    
 
     // Toggle menu on click
 // const nav = document.querySelector('#header nav')
