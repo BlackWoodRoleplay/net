@@ -164,6 +164,19 @@ text-decoration-color: #fff;
   transform: translate(50%);
 }
 
+.img4{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-left: 20px;
+  padding-top: 0px;
+  z-index: 1;
+  margin-top: 50px;
+  margin-bottom: 180px;
+}
+
 
 .fullcards{
   height: 100%;
