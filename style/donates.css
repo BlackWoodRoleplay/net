@@ -9,43 +9,6 @@
 
 }
 
-/* Botão Pagamento */
-
-.pagamento{
-  text-align: center;
-  margin: 0 auto;
-  position: relative;
-  width: min(20rem, 90%);
-  display: block;
-  text-decoration: none;
-  padding: 0.8rem;
-  color: #1C1C1C;
-  background-color: #363636;
-  border: 2px solid black;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.pagamento > a{
-  color: white;
-  outline: none;
-  font: inherit;
-  transition: 0.3s;
-}
-
-.pagamento:hover,
-.pagamento:focus{
-  color: white;
-  background: #888888;
-  text-decoration: #f0eef5;
-}
-
-.pagamento > a:hover{
-  color: #f0eef5;
-  outline: none;
-}
-
 
 @import url('http://fonts.cdnfonts.com/css/black-chancery');
 
@@ -189,8 +152,71 @@ text-decoration-color: #fff;
     
   }
 
-  
+  /* Novidades */
 
+.novidades{
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans",sans-serif;
+  background-color: #1C1C1C;
+  min-height: 55vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog-posts{
+  width: min(1200px, 100%);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.post{
+  width: calc(33% - 20px);
+  overflow: invisible;
+}
+
+.post-img{
+  width: 100%;
+  border-radius: 6px;
+  transition: .3s linear;
+}
+/* mudar cor onde fica o texto nas imgs*/
+.post-content {
+  background-color: #363636;
+  margin: 0 10px;
+  padding: 20px;
+  border-radius: 6px;
+  transform: translateY(-60px);
+  transition: .3s linear;
+}
+
+.post-content h3{
+  font-size: 16px;
+  margin-bottom: 5px;
+  color:#f7f6f1;
+}
+
+.post:hover .post-img{
+  transform: translateY(20px);
+}
+
+.post:hover .post-content{
+  transform: translateY(-80px);
+}
+
+@media screen and (max-width: 1100px){
+  .blog-posts{
+    justify-content: center;
+  }
+  .post{
+    width: min(600px, 100%);
+  }
+  
+}
 
     /* Donates */
 
@@ -204,25 +230,7 @@ text-decoration-color: #fff;
     padding: 10px;
   }
 
-
-  /* cards */
-
-
-  .timeline{text-align: center;margin: 20px auto;max-width: 1300px; padding-top: 10px;}
-.c_time{border-radius: 100%;background-color: #363636;display: inline-block;vertical-align: middle;}
-.c_tsize{width: 150px;height: 150px;margin: 0px 20px 0px 20px;border: 0px solid #ffffff;transition:all 0.5s;-webkit-transition:all 0.5s;}
-.c_tsize p {color:  #ffffff; font-family:BlackCha; font-size:26px; padding-top: 15px;}
-.c_tsize:hover{transition:all 0.5s;-webkit-transition:all 0.5s; width: 300px;height: 300px;border: 15px solid  #ffffff;}
-.c_tsize:hover .content {display: none;}
-.c_tsize:hover .hidden-content {display: block;}
-.c_tsize:hover .title {color: rgb(250, 250, 250);  padding-top: 2px ; font-family: BlackCha;}
-.hidden-content {display: none;font-size: 0.9em;line-height: 1.2;width: 180px;margin: 0 auto;color: #fff;}
-.hidden-content img {width: 160px;margin-bottom: 5px;}
-
-
-
     /* Rodape */
-
 
 .footer{
     background-color: #363636;

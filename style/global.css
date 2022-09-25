@@ -43,7 +43,7 @@ header.sticky{
 header .logo{
     height: 3.5em;
     width: 100%;
-    background-image: url(../titulo/LOGO2cortado.png);
+    background-image: url(../titulo/LOGO.png);
     background-repeat: no-repeat;
     background-size: contain;
     cursor: pointer;
