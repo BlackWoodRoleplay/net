@@ -1,21 +1,16 @@
 /* Cards Novos  */
 
-.horizontal{
-  display: flex;
-}
-
 .container{
   max-width: 1000px;
-  margin: 100px auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-around;
-  margin: 10px;
 }
 
 .card{
   position: relative;
-  margin: 20px 0;
+  margin: 15px;
   width: 300px;
   height: 400px;
   background: url(../images/papel.jpg);
