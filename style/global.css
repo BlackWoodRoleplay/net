@@ -12,6 +12,13 @@
     background-color: #1C1C1C;
 }
 
+.h1{
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.h2{
+    font-family: 'Allan', cursive;
+}
 
 html{
     scroll-behavior: smooth;
