@@ -5,20 +5,10 @@
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Allan&family=Cinzel+Decorative&display=swap');
-
 .body{
     margin: 0;
     padding: 0;
     background-color: #1C1C1C;
-}
-
-.h1{
-    font-family: 'Cinzel Decorative', cursive;
-}
-
-.h2{
-    font-family: 'Allan', cursive;
 }
 
 html{
@@ -126,6 +116,8 @@ header.sticky ul li a{
 
 .divisoria{
     text-align: center;
+    max-width: 5000px;
+    width: 100%;
 }
 
 .img2{

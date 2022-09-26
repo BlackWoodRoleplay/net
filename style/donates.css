@@ -1,248 +1,69 @@
-/* Geral */
+/* texto */
 
-.body{
-    margin: 0;
-    padding: 0;
-    background-color: #1C1C1C;
-    margin-bottom: 0;
-    width: 100%;
-
+.img-box{
+  height: 98%;
+  max-width: 900px;
+  width: 97%;
+  text-align: center;
+  border-radius: 50px;
+  padding: 30px 30px 30px 30px;
 }
 
-
-@import url('http://fonts.cdnfonts.com/css/black-chancery');
-
- 
-h2 {
-  font-family: 'BlackChancery', sans-serif;
-                                                
-  color:#ffffff;
+.img3{
+  max-width: 400px;
+  width: 98%;
+  height: 98%;
 }
 
-h3{
-  color: #54d1d1;
-  font-family: "BlackChancery", sans-serif ;
+.infos{
+  margin: 0 auto;
+  color: #f0eef5;
+  max-width: 900px;
+  width: 98%;
+  height: 98%;
+  text-align: center;
+  padding: 10px;
+  font-size: 125%;
 }
 
-/* nav mobile */
-.collapse ul a{
-text-decoration-color: #fff;
-}
+/* Utilidades */
 
-.collapse ul{
+.util{
   display: flex;
-  margin: 0px 30px;
-  
+  align-items: center;
+  justify-content: center;
+  width: 98%;
+  flex-wrap: wrap;
 }
 
-.collapse ul li{
-  font-family: 'Times New Roman', Times, serif ;
-  list-style: none;
-  margin-left: 35px;
-  padding-left: 15px;
-  padding-top: 15px;
-  
-}
-
-.collapse ul li a{
-  text-decoration: none;
-  font-size: 1em;
-  color: #fff;
+.card{
   position: relative;
-}
-
-.collapse ul li a:before{
-  content: '';
-  width: 0;
-  height: 3px;
-  background: #888888;
-  position: absolute;
-  top: 110%;
-  left: 0;
-  transition: .5s;
-  text-decoration: none;
-  
-}
-
-.collapse ul li:hover a:before{
-  text-decoration: none;
-  width: 75px;
-  transform: translateX(-0%);
-}
-
-.collapse ul li:hover a:after{
-  text-decoration: none;
-  width: 50%;
-  transform: translateX(-100%);
-}
-
-
-/* carrousel */
-
-.navbar{
-    background-color: rgba(0,0,0,.4);
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    }
-    
-    .navbar-light .imgnavbar {
-    color: #fff;
-    max-width: 70px;
-    max-height: 70px;
-    }
-    
-    .navbar-nav {
-    text-align: center;
-    padding: 0px;
-    margin: 0px;
-    }
-    
-    .nav-link {
-    font-size: 1em;
-    margin-top: -13px;
-    }
-
-    
-    /* Titulo abaixo do header */
-    
-    .content{
-      text-align: center; 
-  }
-    
-    .img{
-      margin-top: 150px;
-      max-width: 350px;
-      width: 98%;
-      height: 98%;
-  }
-
-  .img-box{
-    margin: 3% auto;
-    height: 98%;
-    max-width: 900px;
-    width: 97%;
-    text-align: center;
-    border-radius: 50px;
-    padding: 30px 30px 30px 30px;
-  }
-  
-    .img3{
-    height: 98%;
-    max-width: 150px;
-    width: 98%;
-  }
-
-    .img2{
-      max-width: 400px;
-      width: 98%;
-      height: 98%;
-  }
-    
-    
-    .tituloblog{
-      width: 100%;
-      max-width: 5000px;
-      height: 100%;
-      margin-right: -50px;
-      min-height: 350px;
-      background-image: url('../images/2.jpg');
-      background-size: cover;
-      background-repeat: repeat-x;
-      clip-path: polygon(30% 0%, 63% 0, 100% 0, 100% 86%, 50% 100%, 50% 100%, 0 89%, 0 0);
-    
-  }
-
-  /* Novidades */
-
-.novidades{
-  margin: 0;
-  padding: 0;
-  font-family: "Open Sans",sans-serif;
-  background-color: #1C1C1C;
-  min-height: 55vh;
+  max-width: 400px;
+  width: 100%;
+  margin: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.blog-posts{
-  width: min(1200px, 100%);
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+.card a img{
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.card label{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f7f6f1;
+  font-size: 1.9rem;
+  font-weight: 900;
+  margin: 0 auto;
   cursor: pointer;
 }
 
-.post{
-  width: calc(33% - 20px);
-  overflow: invisible;
+.card a img:hover{
+  filter: brightness(1.4);
+  box-shadow: 0px 0px 50px 15px #000000;
 }
-
-.post-img{
-  width: 100%;
-  border-radius: 6px;
-  transition: .3s linear;
-}
-/* mudar cor onde fica o texto nas imgs*/
-.post-content {
-  background-color: #363636;
-  margin: 0 10px;
-  padding: 20px;
-  border-radius: 6px;
-  transform: translateY(-60px);
-  transition: .3s linear;
-}
-
-.post-content h3{
-  font-size: 16px;
-  margin-bottom: 5px;
-  color:#f7f6f1;
-}
-
-.post:hover .post-img{
-  transform: translateY(20px);
-}
-
-.post:hover .post-content{
-  transform: translateY(-80px);
-}
-
-@media screen and (max-width: 1100px){
-  .blog-posts{
-    justify-content: center;
-  }
-  .post{
-    width: min(600px, 100%);
-  }
-  
-}
-
-    /* Donates */
-
-.infos{
-    margin: 0 auto;
-    color: #f0eef5;
-    max-width: 900px;
-    width: 98%;
-    height: 98%;
-    text-align: center;
-    padding: 10px;
-  }
-
-    /* Rodape */
-
-.footer{
-    background-color: #363636;
-    width: 100%;
-    height: 100px;
-    position: absolute;
-      margin-top: 30px;
-  }
-  
-  .footer p{
-    text-align: center;
-    color: #f7f6f1;
-    padding-top: 50px;
-    margin: 0;
-  }
