@@ -1,311 +1,68 @@
-/* Geral */
+/* Cards Novos  */
 
-.body{
-    margin: 0;
-    padding: 0;
-    background-color: #1C1C1C;
-    margin-bottom: 0;
-    width: 100%;
-
-}
-
-@import url('http://fonts.cdnfonts.com/css/black-chancery');
-
- 
-h2 {
-  font-family: 'BlackChancery', sans-serif;
-                                                
-  color:#ffffff;
-}
-
-h3{
-  color: #54d1d1;
-  font-family: "BlackChancery", sans-serif ;
-}
-
-/* nav mobile */
-.collapse ul a{
-text-decoration-color: #fff;
-}
-
-.collapse ul{
+.horizontal{
   display: flex;
-  margin: 0px 30px;
-  
 }
 
-.collapse ul li{
-  font-family: 'Times New Roman', Times, serif ;
-  list-style: none;
-  margin-left: 35px;
-  padding-left: 15px;
-  padding-top: 15px;
-  
+.container{
+  max-width: 1000px;
+  margin: 100px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10px;
 }
 
-.collapse ul li a{
-  text-decoration: none;
-  font-size: 1em;
-  color: #fff;
+.card{
   position: relative;
+  margin: 20px 0;
+  width: 300px;
+  height: 400px;
+  background: url(../images/papel.jpg);
+  transform-style: preserve-3d;
+  transform: perspective(2000px);
+  transition: 1s;
+  box-shadow: inset 300px 0 50px rgba(0,0,0,.5);
 }
 
-.collapse ul li a:before{
-  content: '';
-  width: 0;
-  height: 3px;
-  background: #888888;
+.card:hover{
+  z-index: 1000;
+  transform: perspective(2000px) rotate(-2deg);
+  box-shadow: inset 300px 0 50px rgba(0,0,0,.2);
+}
+
+.card .imgBox{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  transform-origin: left;
+  z-index: 1;
+  transition: 1s;
+}
+
+.card:hover .imgBox{
+  transform: rotateY(-135deg);
+}
+
+.card .imgBox .img{
   position: absolute;
-  top: 110%;
+  top: 0;
   left: 0;
-  transition: .5s;
-  text-decoration: none;
-  
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.collapse ul li:hover a:before{
-  text-decoration: none;
-  width: 75px;
-  transform: translateX(-0%);
+.card .details{
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 20px;
 }
 
-.collapse ul li:hover a:after{
-  text-decoration: none;
-  width: 50%;
-  transform: translateX(-100%);
+.imgBox{
+  display: flex;
 }
-
-
-/* carrousel */
-
-.navbar{
-    background-color: rgba(0,0,0,.4);
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    }
-    
-    .navbar-light .imgnavbar {
-    color: #fff;
-    max-width: 70px;
-    max-height: 70px;
-    }
-    
-    .navbar-nav {
-    text-align: center;
-    padding: 0px;
-    margin: 0px;
-    }
-    
-    .nav-link {
-    font-size: 1em;
-    margin-top: -13px;
-    }
-
-    
-    /* Titulo abaixo do header */
-    
-    .content{
-      text-align: center; 
-    }
-    
-    .img{
-      margin-top: 150px;
-      max-width: 350px;
-      width: 98%;
-      height: 98%;
-    }
-
-    
-    
-    .tituloblog{
-      width: 100%;
-      max-width: 2000px;
-      height: 100%;
-      margin-right: -50px;
-      min-height: 350px;
-      background-image: url('../images/2.jpg');
-      background-size: cover;
-      background-repeat: repeat-x;
-      clip-path: polygon(30% 0%, 63% 0, 100% 0, 100% 86%, 50% 100%, 50% 100%, 0 89%, 0 0);
-    
-    }
-
-    /* CARDS */
-
-    .botão{
-      position: relative;
-      margin-bottom: 30px;
-      margin-top: 30px;
-      top: 0%;
-      left: 0%;
-    }
-
-    .img2{
-      max-width: 589px;
-      width: 100%;
-      max-height: 196px;
-      height: 100%;
-      position: relative;
-      margin-bottom: 30px;
-      top: 0%;
-      left: 0%;
-    }
-
-
-    .img3{
-      max-width: 589px;
-      width: 100%;
-      max-height: 196px;
-      height: 100%;
-      position: relative;
-      margin-bottom: 30px;
-      top: 0;
-      left: 0;
-      transform: translate(50%);
-    }
-
-
-    .fullcards{
-      height: 100%;
-      max-width: 2000px;
-      width: 98%;
-    }
-
-    .bodycard02{
-      margin: 30px;
-      max-width: 2000px;
-      position: relative;
-      width: 98%;
-      background-color: #2e2e2e;
-      border-radius: 50px;
-      padding: 10px;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      text-align: center;
-    }
-
-
-      .cards{
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        text-align: center;
-      }
-      
-
-      .bodycard03{
-        margin: 30px;
-        display: flex;
-        align-items: center;
-        max-width: 2000px;
-        width: 98%;
-        flex-wrap: wrap;
-        justify-content: center;
-        background-color: #2e2e2e;
-        border-radius: 50px;
-        padding: 30px 30px 30px 30px;
-      }
-      
-      .cardrac{
-        position: relative;
-        width: 300px;
-        height: 450px;
-        background: #363636;
-        border-radius: 10px;
-        overflow: hidden;
-        justify-content: center;
-        margin: 5px;
-      }
-            
-      
-      .imgbx{
-        position: relative;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        padding-left: 0px;
-        padding-top: 0px;
-        z-index: 1;
-      }
-      
-      .imgbx img{
-        max-width: 100%;
-        transition: 0.65s;
-        margin-bottom: 60px;
-      }
-      
-      .cardrac:hover .imgbx img{
-        max-width: 10%;
-        opacity: 0%;
-      }
-
-      .cardrac:hover .conteudobx .comprar{
-        top:0;
-        opacity: 1;
-      }
-       
-      .conteudobx p {
-        color: white;
-        font-size: 15px;
-        text-align: center;
-      }
-
-      .conteudobx{
-        position: relative;
-        padding: 18px;
-        padding-top: 17px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        z-index: 1;
-        font-size: 12px;
-        margin-top: -30px;
-      }
-      
-    
-      
-      .conteudobx .preço{
-        font-size: 15px;
-        color:  #cfc232; /* cor dos atributos*/
-        font-weight: 500;
-        letter-spacing: 1px; 
-      }
-      
-      .conteudobx .comprar{
-        position: relative;
-        top: 200px;
-        opacity: 0;
-        padding: 10px 30px;
-        margin-top: 5px;
-        color: #ffff;
-        text-decoration: none;
-        background:  #b8ad37; /* botão do leia mais*/
-        border-radius: 30px;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        transition: 0.5s;
-      }
-
-
-    /* Rodape */
-
-
-.footer{
-    background-color: #363636;
-    width: 100%;
-    height: 100px;
-    position: absolute;
-      margin-top: 30px;
-  }
-  
-  .footer p{
-    text-align: center;
-    color: #f7f6f1;
-    padding-top: 50px;
-    margin: 0;
-  }
