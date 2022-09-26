@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Allan&family=Cinzel+Decorative&display=swap');
 
 .body{
     margin: 0;
@@ -23,7 +24,6 @@
 html{
     scroll-behavior: smooth;
 } 
-
 
 
 /* Header */
