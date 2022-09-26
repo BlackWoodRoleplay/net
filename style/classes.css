@@ -1,14 +1,5 @@
 /* Geral */
 
-.body{
-    margin: 0;
-    padding: 0;
-    background-color: #1C1C1C;
-    margin-bottom: 0;
-    width: 100%;
-
-}
-
 @import url('http://fonts.cdnfonts.com/css/black-chancery');
 
  
@@ -21,113 +12,6 @@ h2 {
 h3{
   color: #54d1d1;
   font-family: "BlackChancery", sans-serif ;
-}
-
-/* nav mobile */
-.collapse ul a{
-text-decoration-color: #fff;
-}
-
-.collapse ul{
-  display: flex;
-  margin: 0px 30px;
-  
-}
-
-.collapse ul li{
-  font-family: 'Times New Roman', Times, serif ;
-  list-style: none;
-  margin-left: 35px;
-  padding-left: 15px;
-  padding-top: 15px;
-  
-}
-
-.collapse ul li a{
-  text-decoration: none;
-  font-size: 1em;
-  color: #fff;
-  position: relative;
-}
-
-.collapse ul li a:before{
-  content: '';
-  width: 0;
-  height: 3px;
-  background: #888888;
-  position: absolute;
-  top: 110%;
-  left: 0;
-  transition: .5s;
-  text-decoration: none;
-  
-}
-
-.collapse ul li:hover a:before{
-  text-decoration: none;
-  width: 75px;
-  transform: translateX(-0%);
-}
-
-.collapse ul li:hover a:after{
-  text-decoration: none;
-  width: 50%;
-  transform: translateX(-100%);
-}
-
-
-/* carrousel */
-
-.navbar{
-  background-color: rgba(0,0,0,.4);
-  border-bottom-right-radius: 15px;
-  border-bottom-left-radius: 15px;
-}
-    
-.navbar-light .imgnavbar {
-  color: #fff;
-  max-width: 70px;
-  max-height: 70px;
-}
-    
-.navbar-nav {
-  text-align: center;
-  padding: 0px;
-  margin: 0px;
-}
-    
-.nav-link {
-  font-size: 1em;
-  margin-top: -13px;
-}
-
-
-/* Titulo abaixo do header */
-
-.content{
-  text-align: center; 
-}
-
-.img{
-  margin-top: 150px;
-  max-width: 350px;
-  width: 98%;
-  height: 98%;
-}
-
-    
-    
-.tituloblog{
-  width: 100%;
-  max-width: 2000px;
-  height: 100%;
-  margin-right: -50px;
-  min-height: 350px;
-  background-image: url('../images/2.jpg');
-  background-size: cover;
-  background-repeat: repeat-x;
-  clip-path: polygon(30% 0%, 63% 0, 100% 0, 100% 86%, 50% 100%, 50% 100%, 0 89%, 0 0);
-
 }
 
 /* CARDS */
@@ -278,47 +162,4 @@ text-decoration-color: #fff;
   z-index: 1;
   font-size: 12px;
   margin-top: -30px;
-}
-
-
-
-.conteudobx .preço{
-  font-size: 15px;
-  color:  #cfc232; /* cor dos atributos*/
-  font-weight: 500;
-  letter-spacing: 1px; 
-}
-
-.conteudobx .comprar{
-  position: relative;
-  top: 200px;
-  opacity: 0;
-  padding: 10px 30px;
-  margin-top: 5px;
-  color: #ffff;
-  text-decoration: none;
-  background:  #b8ad37; /* botão do leia mais*/
-  border-radius: 30px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  transition: 0.5s;
-}
-
-
-/* Rodape */
-
-
-.footer{
-  background-color: #363636;
-  width: 100%;
-  height: 100px;
-  position: absolute;
-    margin-top: 30px;
-}
-
-.footer p{
-  text-align: center;
-  color: #f7f6f1;
-  padding-top: 50px;
-  margin: 0;
 }
