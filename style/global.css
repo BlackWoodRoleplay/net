@@ -124,7 +124,7 @@ header.sticky ul li a{
     min-height: 350px;
     background-image: url('../images/art0.jpg');
     background-size: cover;
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
 }
 
 .content{
