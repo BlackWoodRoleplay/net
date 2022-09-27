@@ -1,5 +1,14 @@
 /* Instruções */
 
+.container-form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    
+}
+
 .instrucao{
   color: white;
   text-align: center;
