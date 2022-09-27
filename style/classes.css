@@ -14,40 +14,11 @@ h1{
   color: #ffffff;
 }
 
-/* CARDS */
-
-.img3{
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  padding-left: 90px;
-  padding-top: 0px;
-  z-index: 1;
-  margin-top: 50px;
-  margin-bottom: 180px;
-}
-
-.fullcards{
-  height: 100%;
-  max-width: 2000px;
-  width: 98%;
-}   
       
-.imgbx{
+.off{
   position: relative;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  padding-left: 0px;
-  padding-top: 100px;
-  z-index: 1;
-}
+  margin-top: -10px;
+  text-align: center;
 
-.imgbx img{
-  max-width: 100%;
-  transition: 0.65s;
-  margin-bottom: 20px;
 }

@@ -1,18 +1,14 @@
 /* texto */
 
-.img-box{
-  height: 98%;
-  max-width: 900px;
-  width: 97%;
+.titulo{
+  width: 100%;
   text-align: center;
-  border-radius: 50px;
-  padding: 30px 30px 30px 30px;
+  margin: 20px 0;
 }
 
-.img3{
+.titulo-img{
   max-width: 400px;
-  width: 98%;
-  height: 98%;
+  width: 100%;
 }
 
 .infos{

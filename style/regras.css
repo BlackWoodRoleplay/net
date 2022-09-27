@@ -6,27 +6,29 @@ h1{
   font-family: 'Germania One', cursive;
   color: #dc9767;
   font-size: 40px;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 h2{
   font-family: 'Oswald', sans-serif;
   color: #deb89e;
   font-size: 20px;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
     
 /* Regras */
 
 .regras{
-  margin: 2% auto;
-  max-width: 1500px;
-  text-align: center;
-  background-color: #2e2e2e;
-  border-radius: 50px;
-  padding: 20px 60px;
+  padding: 70px 70px;
+  margin: 0 50px;
 }
 
 .conteudoregras{
+  max-width: 1500px;
+  width: 98%;
   color: white;
+  text-align: center;
+  padding: 40px 60px;
+  background-color: #2e2e2e;
+  border-radius: 50px;
 }

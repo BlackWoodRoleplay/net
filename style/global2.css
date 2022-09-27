@@ -90,9 +90,8 @@ header.sticky ul li a{
 
  /* Abaixo do header */
     
-.tituloblog{
+.banner{
     width: 100%;
-    max-width: 5000px;
     height: 100%;
     margin-right: -50px;
     min-height: 350px;
@@ -120,7 +119,7 @@ header.sticky ul li a{
     width: 100%;
 }
 
-.img2{
+.divisoria-img{
     margin-top: -18px;
     max-width: 120px;
 }

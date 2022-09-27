@@ -1,10 +1,11 @@
 /* Cards Novos  */
 
 .container{
-  max-width: 1000px;
-  margin-top: 1%;
-  margin-bottom: 1%;
+  width: 100%;
+  padding: 1%;
   display: flex;
+  flex-wrap: wrap;
+  align-items:center;
   justify-content: space-around;
 }
 
@@ -21,7 +22,7 @@
 }
 
 .card:hover{
-  z-index: 1000;
+  z-index: 2;
   transform: perspective(2000px) rotate(-2deg);
   box-shadow: inset 300px 0 50px rgba(0,0,0,.2);
 }
