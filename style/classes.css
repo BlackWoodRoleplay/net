@@ -1,54 +1,22 @@
-/* Geral */
+/* Texto */
 
-@import url('http://fonts.cdnfonts.com/css/black-chancery');
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&family=Cinzel+Decorative:wght@400;700&display=swap');
 
  
-h2 {
-  font-family: 'BlackChancery', sans-serif;
-                                                
-  color:#ffffff;
+h2{
+  font-family: 'Allan', cursive;                                          
+  color:#000;
+
 }
 
-h3{
-  color: #54d1d1;
-  font-family: "BlackChancery", sans-serif ;
+h1{
+  font-family: 'Cinzel Decorative', cursive;
+  color: #ffffff;
 }
 
 /* CARDS */
 
-.botão{
-  position: relative;
-  margin-bottom: 30px;
-  margin-top: 30px;
-  top: 0%;
-  left: 0%;
-}
-
-.img2{
-  max-width: 589px;
-  width: 100%;
-  max-height: 196px;
-  height: 100%;
-  position: relative;
-  margin-bottom: 30px;
-  top: 0%;
-  left: 0%;
-}
-
-
 .img3{
-  max-width: 589px;
-  width: 100%;
-  max-height: 196px;
-  height: 100%;
-  position: relative;
-  margin-bottom: 30px;
-  top: 0;
-  left: 0;
-  transform: translate(50%);
-}
-
-.img4{
   position: relative;
   width: 100%;
   display: flex;
@@ -61,62 +29,11 @@ h3{
   margin-bottom: 180px;
 }
 
-
 .fullcards{
   height: 100%;
   max-width: 2000px;
   width: 98%;
-}
-
-.bodycard02{
-  margin: 30px;
-  max-width: 2000px;
-  position: relative;
-  width: 98%;
-  background-color: #2e2e2e;
-  border-radius: 50px;
-  padding: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
-}
-
-
-.cards{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
-}
-
-
-.bodycard03{
-  margin: 30px;
-  display: flex;
-  align-items: center;
-  max-width: 2000px;
-  width: 98%;
-  flex-wrap: wrap;
-  justify-content: center;
-  background-color: #2e2e2e;
-  border-radius: 50px;
-  padding: 30px 30px 30px 30px;
-}
-
-.cardrac{
-  position: relative;
-  width: 300px;
-  height: 450px;
-  background: #363636;
-  border-radius: 10px;
-  overflow: hidden;
-  justify-content: center;
-  margin: 5px;
-}
-            
+}   
       
 .imgbx{
   position: relative;
@@ -125,7 +42,7 @@ h3{
   justify-content: center;
   align-content: center;
   padding-left: 0px;
-  padding-top: 0px;
+  padding-top: 100px;
   z-index: 1;
 }
 
@@ -133,33 +50,4 @@ h3{
   max-width: 100%;
   transition: 0.65s;
   margin-bottom: 20px;
-}
-
-.cardrac:hover .imgbx img{
-  max-width: 10%;
-  opacity: 0%;
-}
-
-.cardrac:hover .conteudobx .comprar{
-  top:0;
-  opacity: 1;
-}
-  
-.conteudobx p {
-  color: white;
-  font-size: 15px;
-  text-align: center;
-}
-
-.conteudobx{
-  position: relative;
-  padding: 18px;
-  padding-top: 17px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  z-index: 1;
-  font-size: 12px;
-  margin-top: -30px;
 }
