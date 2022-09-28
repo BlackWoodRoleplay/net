@@ -96,10 +96,10 @@ header.sticky ul li a{
     position: relative;
     background-color: #1C1C1C;
     width: 100%;
-    /* display: flex;
+    display: flex; 
     flex-direction: column;
     align-items: center;
-    justify-content: center; */
+    justify-content: center; 
 }
 
 /* Divisoria */
