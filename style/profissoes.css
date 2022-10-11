@@ -83,6 +83,28 @@ h2{
   z-index: 1;
 }
 
+.box-img3{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/back13.png);
+  background-size: cover;
+  z-index: 1;
+}
+
+.box-img4{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/back14.png);
+  background-size: cover;
+  z-index: 1;
+}
+
      
 
 

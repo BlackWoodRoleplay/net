@@ -32,7 +32,27 @@ h2{
   padding: 50px;
 }
 
+.texto{
+  width: 50%;
+  text-align: left;
+  align-items: left;
+  margin: 50px;
+  z-index: 2;
+  max-width: 600px;
+}
+
 .box-img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/back0.png);
+  background-size: cover;
+  z-index: 1;
+}
+
+.box-img1{
   position: absolute;
   top: 0;
   left: 0;
@@ -43,11 +63,3 @@ h2{
   z-index: 1;
 }
 
-.texto{
-  width: 50%;
-  text-align: left;
-  align-items: left;
-  margin: 50px;
-  z-index: 2;
-  max-width: 600px;
-}
