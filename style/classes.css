@@ -1,24 +1,117 @@
-/* Texto */
+/* texto */
 
-@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&family=Cinzel+Decorative:wght@400;700&display=swap');
-
- 
-h2{
-  font-family: 'Allan', cursive;                                          
-  color:#000;
-
-}
-
-h1{
-  font-family: 'Cinzel Decorative', cursive;
-  color: #ffffff;
-}
-
-      
-.off{
-  position: relative;
+.titulo{
   width: 100%;
-  margin-top: -10px;
   text-align: center;
-  margin-bottom: 250px;
+  margin: 20px 0;
+}
+
+.titulo-img{
+  max-width: 400px;
+  width: 100%;
+}
+
+.infos{
+  margin: 0 auto;
+  color: #f0eef5;
+  max-width: 900px;
+  width: 98%;
+  height: 98%;
+  text-align: center;
+  padding: 10px;
+  font-size: 125%;
+}
+
+/* Imagens das Classes */
+
+.container{
+  display: flex;
+  height: 580px;
+}
+
+.box{
+  position: relative;
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: -60px;
+  padding-top: 0px;
+}
+
+.img001{
+  cursor: pointer;
+  width: 400%;
+  filter: grayscale(1);
+  margin-left: -150px;
+  padding-top: 80px;
+}
+
+.img001:hover{
+  -webkit-filter: drop-shadow(0px 0px 10px rgba(6, 6, 237, 0.8));
+  filter: drop-shadow(15px 15px 15px 15px rgba(6, 6, 237, 0.8));
+}
+
+.img002{
+  cursor: pointer;
+  width: 100%;
+  filter: grayscale(1);
+  margin-left: 0px;
+  padding-top: 180px;
+}
+
+.img002:hover{
+  -webkit-filter: drop-shadow(0px 0px 10px rgba(6, 119, 51, 0.8));
+  filter: drop-shadow(15px 15px 15px 15px rgba(6, 119, 51, 0.8));
+}
+
+.img003{
+  cursor: pointer;
+  width: 60%;
+  filter: grayscale(1);
+  margin-left: 0px;
+  padding-top: 0px;
+}
+
+.img003:hover{
+  -webkit-filter: drop-shadow(0px 0px 10px rgba(117, 115, 117, 0.8));
+  filter: drop-shadow(15px 15px 15px 15px rgba(6, 119, 51, 0.8));
+}
+
+.img004{
+  cursor: pointer;
+  width: 220%;
+  filter: grayscale(1);
+  margin-left: -50px;
+  padding-top: 18px;
+}
+
+.img004:hover{
+  -webkit-filter: drop-shadow(0px 0px 10px rgba(255, 33, 33, 0.8));
+  filter: drop-shadow(15px 15px 15px 15px rgba(255, 33, 33, 0.8));
+}
+
+.img005{
+  cursor: pointer;
+  width: 200%;
+  filter: grayscale(1);
+  margin-left: 0px;
+}
+
+.img005:hover{
+  -webkit-filter: drop-shadow(0px 0px 10px rgba(255, 237, 33, 0.8));
+  filter: drop-shadow(15px 15px 15px 15px rgba(255, 237, 33, 0.8));
+}
+
+.img006{
+  cursor: pointer;
+  width: 230%;
+  filter: grayscale(1);
+  margin-left: 100px;
+  margin-top: -35px;
+}
+
+.img006:hover{
+  -webkit-filter: drop-shadow(0px 0px 10px rgba(255, 139, 33, 0.8));
+  filter: drop-shadow(15px 15px 15px 15px rgba(255, 139, 33, 0.8));
 }

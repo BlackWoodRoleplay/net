@@ -154,3 +154,13 @@ header.sticky ul li a{
     color: #f7f6f1;
     padding: 1.5rem 0 0 0;
 }
+
+/*Para Guias Off*/
+
+.off{
+    position: relative;
+    width: 100%;
+    margin-top: -10px;
+    text-align: center;
+    margin-bottom: 250px;
+  }
