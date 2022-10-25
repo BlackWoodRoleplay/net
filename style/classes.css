@@ -19,28 +19,32 @@ h2{
 /* Imagens das Classes */
 
 .container{
+  width: 98%;
+  margin: 0 auto;
+  height: 100%;
   display: flex;
-  max-width: 100%;
-  max-height: 100%;
-  height: 580px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
 }
 
 .box{
   position: relative;
-  max-width: 1100px;
   width: 100%;
   display: flex;
   align-items: center;
-  margin-left: -60px;
-  padding-top: 0px;
+  justify-content: space-around;
 }
 
+ 
 .img001{
   cursor: pointer;
-  width: 550%;
+  width: 100%;
+  max-height: 350px;
+  height: 100%;
   filter: grayscale(1);
-  margin-left: -180px;
-  padding-top: 30px;
+
 }
 
 .img001:hover{
@@ -51,9 +55,11 @@ h2{
 .img002{
   cursor: pointer;
   width: 100%;
+  max-height: 350px;
+  padding-top: 120px;
+  height: 100%;
   filter: grayscale(1);
-  margin-left: 0px;
-  padding-top: 180px;
+ 
 }
 
 .img002:hover{
@@ -63,10 +69,11 @@ h2{
 
 .img003{
   cursor: pointer;
-  width: 60%;
+  width: 100%;
+  max-height: 350px;
+  height: 100%;
   filter: grayscale(1);
-  margin-left: 0px;
-  padding-top: 0px;
+ 
 }
 
 .img003:hover{
@@ -76,10 +83,12 @@ h2{
 
 .img004{
   cursor: pointer;
-  width: 220%;
+  width: 100%;
+  max-height: 350px;
+  height: 100%;
+  padding-top: 45px;
   filter: grayscale(1);
-  margin-left: -50px;
-  padding-top: 18px;
+
 }
 
 .img004:hover{
@@ -89,9 +98,12 @@ h2{
 
 .img005{
   cursor: pointer;
-  width: 200%;
+  width: 100%;
+  max-height: 350px;
+  height: 100%;
+  padding-top: 25px;
   filter: grayscale(1);
-  margin-left: 0px;
+
 }
 
 .img005:hover{
@@ -101,21 +113,39 @@ h2{
 
 .img006{
   cursor: pointer;
-  width: 215%;
+  width: 100%;
+  max-height: 380px;
+  height: 100%;
+  padding-top: 15px;
   filter: grayscale(1);
-  margin-left: 110px;
-  margin-top: -20px;
-  z-index: auto;
 }
 
 .img006:hover{
   -webkit-filter: drop-shadow(0px 0px 10px rgba(255, 139, 33, 0.8));
   filter: drop-shadow(15px 15px 15px 15px rgba(255, 139, 33, 0.8));
+} 
+
+.artigos{
+  background-color: #363636;
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 90%;
+  padding: 15px;
+  margin: 20px;
+  color: #f7f6f1;
+  text-align: center;
+  transition-duration: 3s;
 }
+
+.hidden{
+  display: none;
+}
+
+
 
 /* Abas */
 
-
+/* 
 .tabs {margin: auto; padding: 0; max-width: 50rem; position: relative; border-radius: 1rem;}
 .tabs li {list-style: none;}
 .tabs li > div {padding: 0 1.5rem 0 2.35rem; color: rgb(31, 20, 26); display: none;}
@@ -140,4 +170,4 @@ h2{
   .tabs li.active > h3 {border-bottom: 2px solid #ff1492;}
   .tabs li > h3 a {padding: 1rem 0 1rem!important; margin-bottom: 0!important; width: 9.3rem;}
   .tabs li > h3 a::before {content: none;}
-}
+} */
