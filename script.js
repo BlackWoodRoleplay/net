@@ -8,18 +8,28 @@ window.addEventListener("scroll", function(){
 
 // Botão voltar ao topo
 
-const scrollAnimation = document.querySelectorAll('[data-anima="scroll"]')
 
 
 function animationScroll(){
+  const halfWindow = window.innerHeight * 3.5;
+  console.log(halfWindow);
+  const scrollAnimation = document.querySelector('[data-anima="scroll"]');
+  const topItem = scrollAnimation.getBoundingClientRect().top;
+
+  const itemVisible = topItem - halfWindow < 0;
+  if(itemVisible){
+    scrollAnimation.classList.add("show-button");
+  } else {
+    scrollAnimation.classList.remove("show-button");
+  };
         
-}
+};
 
-window.addEventListener('scroll', animationScroll)
+window.addEventListener('scroll', animationScroll);
 
 
 
-// Classes
+// Página Classes
 
 function show(id) {
         if (document.getElementById(id).style.display !== "none") {
