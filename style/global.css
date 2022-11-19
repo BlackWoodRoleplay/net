@@ -157,38 +157,3 @@ header.sticky ul li a{
     padding: 1.5rem 0 0 0;
     font-size: 20px;
 }
-
-/*Para Guias Off*/
-
-.off{
-    position: relative;
-    width: 100%;
-    margin-top: -10px;
-    text-align: center;
-    margin-bottom: 250px;
-  }
-
-.topo{
-    background-color: #fff;
-    position: fixed;
-    bottom: 20px;
-    right: -500px;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: .5s all;
-    z-index: 1;
-    opacity: .65;
-  }
-
-.topo img{
-    width: 80%;
-  }
-
-  .show-button .topo{
-    right: 20px;
-    transition: .5s all;
-  }
