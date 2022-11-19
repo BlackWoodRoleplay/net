@@ -1,19 +1,26 @@
 /* Texto */
 
-@import url('https://fonts.googleapis.com/css2?family=Germania+One&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Condiment&family=Germania+One&family=Oswald&display=swap');
 
 h1{
-  font-family: 'Germania One', cursive;
-  color: #dc9767;
-  font-size: 40px;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+    font-family: 'Germania One', cursive;
+    color: #fff;
+    font-size: 40px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
 }
 
 h2{
-  font-family: 'Oswald', sans-serif;
-  color: #deb89e;
-  font-size: 20px;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+    font-family: 'Oswald', sans-serif;
+    color: #BDBDBD;
+    font-size: 20px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+
+h3{
+    font-family: 'Condiment', cursive;
+    color: #fff;
+    font-size: 70px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black 
 }
 
 
@@ -56,7 +63,7 @@ h2{
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../images/back10.png);
+  background-image: url(../imagesprof/alfaiate.png);
   background-size: cover;
   z-index: 1;
 }
@@ -67,7 +74,7 @@ h2{
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../images/back11.png);
+  background-image: url(../imagesprof/ferreiro.png);
   background-size: cover;
   z-index: 1;
 }
@@ -78,7 +85,7 @@ h2{
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../images/back12.png);
+  background-image: url(../imagesprof/alquimista.png);
   background-size: cover;
   z-index: 1;
 }
@@ -89,7 +96,7 @@ h2{
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../images/back13.png);
+  background-image: url(../imagesprof/fundidor.png);
   background-size: cover;
   z-index: 1;
 }
@@ -100,7 +107,7 @@ h2{
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../images/back14.png);
+  background-image: url(../imagesprof/fazendeiro.png);
   background-size: cover;
   z-index: 1;
 }

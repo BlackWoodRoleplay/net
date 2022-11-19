@@ -1,0 +1,135 @@
+/* Texto */
+
+@import url('https://fonts.googleapis.com/css2?family=Condiment&family=Germania+One&family=Oswald&display=swap');
+
+h1{
+    font-family: 'Germania One', cursive;
+    color: #fff;
+    font-size: 40px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    color: #BDBDBD;
+    font-size: 25px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+
+h3{
+    font-family: 'Condiment', cursive;
+    color: #fff;
+    font-size: 64px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black 
+}
+
+/* Background */
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.box{
+    display: flex;
+    position: relative;
+    height: 1250px;
+    padding: 50px;
+}
+
+.box-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/back.png);
+    background-size: cover;
+    z-index: 1;
+}
+
+/* Fomulário */
+
+.container-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    margin: 3% auto;
+    height: 98%;
+    max-width: 1000px;
+    width: 98%;
+    text-align: center;
+    border-radius: 40px;
+    padding: 30px;
+}
+  
+.formulario{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    text-align: left;
+    font-size: 1.125rem;
+    width: 98%;
+    max-width: 100%;
+    height: 100%;
+}
+  
+.formulario label,
+.formulario input,
+.formulario textarea,
+.formulario button{
+    display: block;
+    width: 100%;
+}
+  
+.formulario label{
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+  
+.formulario input,
+.formulario textarea{
+    font: inherit;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: box-shadow, border-color 0.3s;
+    background-color: #363636;
+    color: #C0C0C0;
+}
+  
+.formulario button{
+    margin-top: 0.8rem;
+    display: block;
+    padding: 0.8rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: box-shadow, border-color 0.3s;
+    background-color: #363636;
+}
+  
+.formulario textarea{
+    min-height: 13rem;
+    resize: vertical;
+}
+  
+.formulario input:hover,
+.formulario input:focus,
+.formulario textarea:hover,
+.formulario textarea:focus{
+    border-color: #C0C0C0;
+    box-shadow: 0 0 0 3px #C0C0C0;
+}
+  
+.formulario button:hover,
+.formulario button:focus{
+    border-color: #C0C0C0;
+    box-shadow: 0 0 0 3px #C0C0C0;
+}
