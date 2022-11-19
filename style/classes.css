@@ -120,9 +120,11 @@ h3{
   filter: grayscale(1);
 }
 
+
 .img006:hover{
   -webkit-filter: drop-shadow(0px 0px 10px rgba(255, 139, 33, 0.8));
   filter: drop-shadow(15px 15px 15px 15px rgba(255, 139, 33, 0.8));
+  
 } 
 
 .artigos{
