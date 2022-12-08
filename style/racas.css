@@ -38,19 +38,20 @@ h3{
 }
 
 .texto{
-  width: 100%;
+  width: 30%;
   text-align: left;
   align-items: left;
   margin: 50px;
   z-index: 2;
-  max-width: 100%px;
+  max-width: 100%;
 }
 
 .texto-direita{
-  width: 100%;
+  width: 30%;
   text-align: right;
   align-items: right;
   margin: 50px;
+  margin-left: 70%;
   z-index: 2;
   max-width: 100%;
 }
