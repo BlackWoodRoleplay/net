@@ -62,7 +62,7 @@ h3{
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../imagesracas/back.png);
+  background-image: url(../imagesracas/Elfo.png);
   background-size: cover;
   z-index: 1;
 }
@@ -73,7 +73,7 @@ h3{
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../imagesracas/back.png);
+  background-image: url(../imagesracas/Anao.png);
   background-size: cover;
   z-index: 1;
 }
@@ -139,7 +139,18 @@ h3{
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../imagesracas/back.png);
+  background-image: url(../imagesracas/Bull.png);
+  background-size: cover;
+  z-index: 1;
+}
+
+.box-img8{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../imagesracas/Drag.png);
   background-size: cover;
   z-index: 1;
 }
