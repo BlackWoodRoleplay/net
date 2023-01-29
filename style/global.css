@@ -59,6 +59,7 @@ header ul li {
     position: relative;
     list-style: none;
     padding: 15px;
+    text-align: center;
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 }
 
