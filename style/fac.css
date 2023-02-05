@@ -39,7 +39,7 @@ h3{
 
 .texto{
   width: 50%;
-  text-align: left;
+  text-align: justify;
   align-items: left;
   margin: 10px;
   z-index: 2;
@@ -55,12 +55,8 @@ h3{
 .texto-direita{
   width: 500px;
   height: 500px;
-  text-align: right;
-  align-items: right;
-  margin: 10px;
-  margin-left: 5%;
+  margin-left: auto;
   z-index: 2;
-  max-width: 100%;
 }
 
 .box-img{
