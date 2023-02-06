@@ -39,20 +39,32 @@ h3{
 
 .texto{
   width: 100%;
-  text-align: left;
-  align-items: left;
+  text-align: center;
+  align-items: center;
   margin: 50px;
   z-index: 2;
   max-width: 100%px;
 }
 
-.texto-direita{
+.texto-left{
+  width: 100%;
+  text-align: left;
+  align-items: left;
+  margin: -50px;
+  z-index: 3;
+  max-width: 100%;
+  float:left;
+
+}
+
+.texto-right{
   width: 100%;
   text-align: right;
   align-items: right;
-  margin: 50px;
-  z-index: 2;
+  margin: -50px;
+  z-index: 3;
   max-width: 100%;
+  float:right;
 }
 
 .box-img{
