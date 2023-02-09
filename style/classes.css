@@ -39,25 +39,26 @@ h3{
 
 .texto-box{
   width: 100%;
-  text-align: center;
   margin: 50px;
   z-index: 1;  
 }
 
 .texto-center{
   width: 80%;
+  text-align: center;
   margin-left: 10%;
 }
 
 .texto-left{
-  width: 50%;
+  width: 45%;
   text-align: left;
   float: left;
 }
 
 .texto-right{
-  width: 50%;
+  width: 45%;
   text-align: right;
+  justify-content: right;
   float: right;
 }
 
