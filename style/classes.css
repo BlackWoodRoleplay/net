@@ -73,7 +73,6 @@ h3{
 
 .texto-right video{
   width: 50%;
-  margin-left: -40%;
   position: absolute;
   clip-path: polygon(20% 0, 80% 0, 80% 100%, 20% 100%);
 }
