@@ -40,24 +40,24 @@ h3{
 .texto-box{
   width: 100%;
   margin: 50px;
-  z-index: 1;  
+  z-index: 1;
 }
 
 .texto-center{
   width: 80%;
-  text-align: center;
+  text-align: justify;
   margin-left: 10%;
 }
 
 .texto-left{
   width: 45%;
-  text-align: left;
+  text-align: justify;
   float: left;
 }
 
 .texto-right{
   width: 45%;
-  text-align: right;
+  text-align: justify;
   justify-content: right;
   float: right;
 }
