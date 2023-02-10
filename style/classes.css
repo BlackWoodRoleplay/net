@@ -58,7 +58,6 @@ h3{
 .texto-right{
   width: 45%;
   text-align: justify;
-  justify-content: right;
   float: right;
 }
 
@@ -70,6 +69,7 @@ h3{
 
 .videos{
   margin-top: 30px;
+  margin-left: -3%;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -79,6 +79,7 @@ h3{
 
 .videos > video{
   width: 50%;
+  margin-left: 4%;
   position: relative;
   clip-path: polygon(20% 0, 80% 0, 80% 100%, 20% 100%);
 }
