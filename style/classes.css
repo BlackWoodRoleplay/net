@@ -61,9 +61,11 @@ h3{
   float: right;
 }
 
-
 /* Video */
 
+.imgclass{
+  max-width: 400px;
+}
 
 /* Plano De Fundo */
 
