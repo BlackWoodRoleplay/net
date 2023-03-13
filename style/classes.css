@@ -33,7 +33,7 @@ h3{
 .box{
   display: flex;
   position: relative;
-  height: 1000px;
+  height: 1300px;
   padding: 50px;
 }
 
@@ -64,7 +64,8 @@ h3{
 /* Video */
 
 .imgclass{
-  max-width: 400px;
+  max-width: 1000px;
+  margin-top: -30px;
 }
 
 /* Plano De Fundo */
