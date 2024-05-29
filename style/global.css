@@ -1,6 +1,10 @@
 /* Corpo */
 
-*{margin: 0; padding: 0; box-sizing: border-box;}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }  
 
 .body{
     margin: 0;
@@ -85,6 +89,8 @@ header.sticky ul li a{
     background-image: url('../images/art0.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+    z-index: -1;
 }
 
 .banner2{
@@ -95,6 +101,8 @@ header.sticky ul li a{
     background-image: url('../images/AOW.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+    z-index: -1;
 }
 
 .content{
@@ -119,6 +127,7 @@ header.sticky ul li a{
     flex-direction: column;
     align-items: center;
     justify-content: center; 
+    margin-bottom: -100px;
 }
 
 /* Divisoria */
@@ -130,15 +139,107 @@ header.sticky ul li a{
 
 /* Rodape */
 
-.footer{
-	background-color: #363636;
+footer{
+    position: relative;
     width: 100%;
-	height: 5rem;
-    float: left;
+	height: 150px; /* Ajuste a altura conforme necessário */
+    background: transparent; /* Certifique-se de que o fundo do rodapé seja transparente */
+    z-index: 1000;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1001;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     text-align: center;
-    justify-content: center;
-    align-items: center;
     color: #f7f6f1;
-    padding: 1.5rem 0 0 0;
     font-size: 20px;
+}
+
+/* Ondas */
+
+.waves {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+  
+  .parallax {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .parallax > use {
+    animation: move-forever 25s cubic-bezier(.55,.5,.45,.5) infinite;
+    will-change: transform;
+  }
+  
+  .parallax > use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+  }
+  
+  .parallax > use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+  }
+  
+  .parallax > use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+  }
+  
+  .parallax > use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+  }
+  
+  @keyframes move-forever {
+    0% {
+        transform: translate3d(-90px, 0, 0);
+    }
+    100% { 
+        transform: translate3d(85px, 0, 0);
+    }
+}
+  
+  /*Mobile*/
+  
+@media only screen and (max-width: 768px) {
+   
+header {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header .logo{
+    height: 2.5rem;
+}
+
+header ul li {
+    padding: 0.1px; /* Ajuste o espaçamento dos itens do menu */
+}
+header ul li a {
+    font-size: 10px; /* Reduza o tamanho do texto do menu */
+}
+
+.banner2{
+    background-position: -100px;
+}
+
+.title {
+    font-size: 18px; /* Reduza o tamanho do texto do título do footer */
+}
 }
