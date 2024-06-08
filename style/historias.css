@@ -1,0 +1,206 @@
+/* Texto */
+
+@import url('https://fonts.googleapis.com/css2?family=Condiment&family=Germania+One&family=Oswald&display=swap');
+
+h1{
+    font-family: 'Germania One', cursive;
+    color: #fff;
+    font-size: 40px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    color: #BDBDBD;
+    font-size: 20px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+
+h3{
+    font-family: 'Condiment', cursive;
+    color: #fff;
+    font-size: 70px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black 
+}
+
+/* Background */
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.box{
+    display: flex;
+    position: relative;
+    height: 1650px;
+    padding: 50px; 
+}
+  
+.box-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/w2.png);
+    background-size: auto;
+    z-index: 1;
+}
+
+/* Effect Zoe */
+
+figure.effect-zoe figcaption {
+	top: auto;
+	bottom: 0;
+	padding: 1em;
+	height: 3.75em;
+	background: rgb(0, 0, 0, 0.5);
+	/*muda a cor do fundo em historias*/
+	color: #000;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0, 100%, 0);
+	transform: translate3d(0, 100%, 0);
+}
+
+figure.effect-zoe h3 {
+	float: center;
+	padding-top: 250px;
+	font-size: 30px;
+}
+
+figure.effect-zoe:hover p.icon-links a:hover,
+figure.effect-zoe:hover p.icon-links a:focus {
+	color: #c6e1ee;
+}
+
+figure.effect-zoe p.icon-links a {
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0, 200%, 0);
+	transform: translate3d(0, 200%, 0);
+}
+
+figure.effect-zoe p.icon-links a span::before {
+	display: inline-block;
+	padding: 8px 10px;
+	font-family: 'feathericons';
+	speak-as: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-eye::before {
+	content: '\e000';
+}
+
+.icon-paper-clip::before {
+	content: '\e001';
+}
+
+.icon-heart::before {
+	content: '\e024';
+}
+
+figure.effect-zoe:hover figcaption,
+figure.effect-zoe:hover p.icon-links a {
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+figure.effect-zoe:hover p.icon-links a:nth-child(3) {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+figure.effect-zoe:hover p.icon-links a:nth-child(2) {
+	-webkit-transition-delay: 0.15s;
+	transition-delay: 0.15s;
+}
+
+figure.effect-zoe:hover p.icon-links a:first-child {
+	-webkit-transition-delay: 0.2s;
+	transition-delay: 0.2s;
+}
+
+/* Grid */
+
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'feathericons';
+	src: url('../fonts/feathericons/feathericons.eot?-8is7zf');
+	src: url('../fonts/feathericons/feathericons.eot?#iefix-8is7zf') format('embedded-opentype'),
+		url('../fonts/feathericons/feathericons.woff?-8is7zf') format('woff'),
+		url('../fonts/feathericons/feathericons.ttf?-8is7zf') format('truetype'),
+		url('../fonts/feathericons/feathericons.svg?-8is7zf#feathericons') format('svg');
+}
+
+.grid {
+	display: grid;
+	position: static;
+	margin: auto;
+	padding: 1em 0 4em;
+	max-width: 1535px;
+	list-style: none;
+	text-align: center;
+	justify-content: space-between;
+	grid-template-columns: 30rem 30rem 30rem;
+}
+
+.grid figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 16px 1%;
+	min-width: 423px;
+	max-width: 423px;
+	max-height: 675px;
+	width: 64rem;
+	background: #3085a3;
+	/* leve mudança na cor do fundo da historia */
+	text-align: center;
+	cursor: pointer;
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	max-width: 100%;
+	opacity: 0.8;
+	background-position: center;
+}
+
+.grid figure figcaption {
+	padding: 2em;
+	color: rgb(238, 240, 247);
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption>a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* O Anchor cobrirá todo o item por padrão */
+/* Para alguns efeitos, aparecerá como um botão */
+.grid figure figcaption>a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
