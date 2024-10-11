@@ -88,9 +88,6 @@ header.sticky ul li a{
     min-height: 350px;
     background-image: url(../images/w2.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    z-index: -1;
 }
 
 .content{
