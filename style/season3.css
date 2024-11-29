@@ -41,7 +41,7 @@ h4{
 .box{
     display: flex;
     position: relative;
-    height: 5500px;
+    height: 4000px;
     padding: 50px; 
 }
   
@@ -71,31 +71,31 @@ h4{
     margin: auto;
 }
 
-/* Paper */
+/* Imagens */
 
-.paper-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    margin: 40px auto;
-}
-
-.paper {
-    position: relative;
-    width: 550px; 
-    height: 650px; 
-    background: url('../images/papel2.png') no-repeat center center; 
-    background-size: cover; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+.image-row {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    gap: 50px; /* Espaço entre as imagens */
+    margin: 30px 0; /* Margem superior e inferior */
 }
 
-.paper h4 {
-    margin: 80px;
-    position: absolute;
-    font-size: 25px;
+.image-container {
+    text-align: center;
+    width: 25%; /*Muda tamanho da imagem*/
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+.image-description {
+    font-size: 16px;
+    color: #ccc;
+    margin-top: 10px;
 }
