@@ -71,7 +71,14 @@ h4{
     margin: auto;
 }
 
-/* Imagens */
+.image-description {
+    font-size: 16px;
+    margin-top: 10px;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Imagens Meio */
 
 .image-row {
     display: flex;
@@ -82,7 +89,6 @@ h4{
 }
 
 .image-container {
-    text-align: center;
     width: 25%; /*Muda tamanho da imagem*/
 }
 
@@ -94,8 +100,15 @@ h4{
     border-radius: 8px;
 }
 
-.image-description {
-    font-size: 16px;
-    color: #ccc;
-    margin-top: 10px;
+/* Imagens Direita */
+
+.content-section {
+    display: flex;
+    align-items: flex-start; /* Alinhamento no topo */
+    gap: 20px; /* Espaçamento entre texto e imagem */
+    margin: 20px 0; /* Espaço em volta da seção */
+}
+
+.text-container2 {
+    flex: 1; /* O texto ocupa o espaço restante */
 }
