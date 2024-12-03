@@ -41,7 +41,7 @@ h4{
 .box{
     display: flex;
     position: relative;
-    height: 5000px;
+    height: 8000px;
     padding: 50px; 
 }
   
@@ -111,3 +111,16 @@ h4{
 .image-container2 img {
     border-radius: 25%;
 }
+
+/* Video */
+
+.video{
+    width: 640px;
+    height: 480px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Centraliza o vídeo horizontalmente */
+    display: block; /* Remove espaços extras ao redor do iframe */
+}
+    
