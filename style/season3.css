@@ -41,7 +41,7 @@ h4{
 .box{
     display: flex;
     position: relative;
-    height: 8000px;
+    height: 10000px;
     padding: 50px; 
 }
   
@@ -96,7 +96,7 @@ h4{
     width: 100%;
     height: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    border-radius: 8px;
+    border-radius: 25%;
 }
 
 /* Imagens Direita */
@@ -110,6 +110,12 @@ h4{
 
 .image-container2 img {
     border-radius: 25%;
+}
+
+.image-container3 img {
+    width: 400px;
+    height: auto;
+    border-radius: 20%;
 }
 
 /* Video */
