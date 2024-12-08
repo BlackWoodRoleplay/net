@@ -129,4 +129,14 @@ h4{
     margin: 0 auto; /* Centraliza o vídeo horizontalmente */
     display: block; /* Remove espaços extras ao redor do iframe */
 }
+ 
+@media only screen and (max-width: 1366px) {
+
+.box{
+    display: flex;
+    position: relative;
+    height: 15800px;
+    padding: 30px; 
+}
     
+}

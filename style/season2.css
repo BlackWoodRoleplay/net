@@ -62,3 +62,47 @@ h3{
     padding: 40px 40px;
     margin: auto;
 }
+
+/* Notebook */
+
+@media only screen and (max-width: 1366px) {
+
+    .box{
+        height: 6250px;
+        padding: 25px; 
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+
+    .box{
+        height: 6800px;
+        padding: 25px; 
+    }
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 375px) {
+
+    h1{
+        font-size: 25px;
+    }
+
+    h2{
+        font-size: 15px;
+    }
+
+    h3{
+		font-size: 50px;
+	}
+
+    .box{
+        height: 11000px;
+    }
+
+    .leitura{
+        padding: 0;
+        margin: 0;
+    }
+}

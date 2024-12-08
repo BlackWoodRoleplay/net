@@ -196,35 +196,68 @@ footer{
         transform: translate3d(85px, 0, 0);
     }
 }
+
+/* Notebook */
+
+@media only screen and (max-width: 1366px) {
+
+    header ul li {
+        padding: 10px 0; /* Ajusta o espaçamento entre itens */
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+
+    header ul li {
+        padding: 10px 0; /* Ajusta o espaçamento entre itens */
+    }
+}
+
+/* Mobile */
   
-  /*Mobile*/
-  
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 375px) {
    
-header {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
+    header {
+        position: absolute;
+        flex-direction: column; /* Muda para layout em coluna */
+        padding: 20px 20px;
+    }
 
-header .logo{
-    height: 2.5rem;
-}
+    header .logo {
+        height: 2.5em; /* Ajusta o tamanho do logo */
+        margin-bottom: 8px;
+        padding: 75px;
+    }
 
-header ul li {
-    padding: 0.1px; /* Ajuste o espaçamento dos itens do menu */
-}
-header ul li a {
-    font-size: 10px; /* Reduza o tamanho do texto do menu */
-}
+    header ul {
+        flex-direction: column; /* Coloca os itens em coluna */
+        align-items: flex-start; /* Alinha os itens à esquerda */
+        width: 100%; /* Ocupa toda a largura do header */
+    }
 
-.banner2{
-    background-position: -100px;
-}
+    header ul li {
+        width: 100%; /* Faz os itens ocuparem a largura total */
+        padding: 10px 0; /* Ajusta o espaçamento entre itens */
+    }
 
-.title {
-    font-size: 18px; /* Reduza o tamanho do texto do título do footer */
-}
+    header ul li a {
+        font-size: 1rem; /* Reduz o tamanho da fonte */
+        margin: 0; /* Remove margens laterais */
+    }
+
+    .title {
+        top: 60%;
+        left: 8%;
+        transform: none;
+        font-size: 18px;
+    }
+
+    .banner{
+        min-height: 500px;
+    }
+
+    .content{
+        padding: 30rem 0 0 0;
+        margin-bottom: 10px;
+    }
 }

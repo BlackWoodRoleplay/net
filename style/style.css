@@ -17,24 +17,6 @@
   height: 98%;
 }
 
-/* Video banner (desativado) */
-
-.video{
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  justify-content: center;
-  align-items: center;
-}
-
-.video video{
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100vh;
-  object-fit: fill;
-}
-
 /* Banner */
 
 .titulo-banner{
@@ -47,4 +29,32 @@
 .titulo-banner img{
  width: 100%;
  padding-top: 50px;
+}
+
+/* Notebook */
+
+@media only screen and (max-width: 1366px) {
+
+  .BG{
+    height: 1000px;
+  }
+
+}
+
+@media only screen and (max-width: 1280px) {
+
+  .BG{
+    height: 943px;
+  }
+
+}
+
+/*Mobile*/
+  
+@media only screen and (max-width: 375px) {
+
+  .BG{
+    height: 780px;
+  }
+
 }

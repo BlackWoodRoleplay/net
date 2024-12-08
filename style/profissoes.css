@@ -61,7 +61,7 @@ h3{
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../imagesprof/alfaiate.png);
+  background-image: url(../imagesRcPf/WIP-1.png);
   background-size: cover;
   z-index: 1;
 }
@@ -72,7 +72,7 @@ h3{
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../imagesprof/ferreiro.png);
+  background-image: url(../imagesRcPf/WIP-2.png);
   background-size: cover;
   z-index: 1;
 }
@@ -83,7 +83,7 @@ h3{
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../imagesprof/alquimista.png);
+  background-image: url(../imagesRcPf/WIP-1.png);
   background-size: cover;
   z-index: 1;
 }
@@ -94,7 +94,7 @@ h3{
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../imagesprof/fundidor.png);
+  background-image: url(../imagesRcPf/WIP-2.png);
   background-size: cover;
   z-index: 1;
 }
@@ -105,14 +105,31 @@ h3{
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../imagesprof/fazendeiro.png);
+  background-image: url(../imagesRcPf/WIP-1.png);
   background-size: cover;
   z-index: 1;
 }
 
-     
+.box-img5{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../imagesRcPf/WIP-2.png);
+  background-size: cover;
+  z-index: 1;
+}
 
+/* Responsividade */
 
+@media only screen and (max-width: 1366px) {
 
+.box{
+  display: flex;
+  position: relative;
+  height: 593px;
+  padding: 20px;
+}
 
-
+}

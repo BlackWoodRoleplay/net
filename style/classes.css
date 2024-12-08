@@ -157,3 +157,16 @@ h3{
   background-size: cover;
   z-index: 1;
 }
+
+/* Responsividade */
+
+@media only screen and (max-width: 1366px) {
+
+.box{
+  display: flex;
+  position: relative;
+  height: 1380px;
+  padding: 20px;
+}
+  
+}

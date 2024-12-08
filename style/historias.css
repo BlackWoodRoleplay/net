@@ -145,15 +145,15 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 	max-width: 1535px;
 	list-style: none;
 	text-align: center;
-	justify-content: space-between;
-	grid-template-columns: 30rem 30rem 30rem;
+	justify-content: center;
+	grid-template-columns: repeat(3, 30rem); /* Duas colunas com largura fixa de 30rem */
+	gap: 16px; /* Espaçamento entre os itens */
 }
 
 .grid figure {
 	position: relative;
-	float: left;
 	overflow: hidden;
-	margin: 16px 1%;
+	margin: 16px;
 	min-width: 423px;
 	max-width: 423px;
 	max-height: 675px;
@@ -203,4 +203,40 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 	white-space: nowrap;
 	font-size: 0;
 	opacity: 0;
+}
+
+/* Notebook */
+
+@media only screen and (max-width: 1366px) {
+
+	.grid {
+		grid-template-columns: repeat(2, 30rem); /* Duas colunas com largura fixa de 30rem */
+	}
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 375px) {
+
+	.grid {
+		grid-template-columns: repeat(1, 30rem); /* Duas colunas com largura fixa de 30rem */
+	}
+	
+	.box{
+		height: 2200px;
+		padding: 50px; 
+	}
+
+	.grid figure {
+		position: relative;
+		margin: 5px 90px 5px 90px;
+		min-width: 300px;
+		max-width: 300px;
+		text-align: center;
+		cursor: pointer;
+	}
+	
+	h3{
+		font-size: 50px;
+	}
 }

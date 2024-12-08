@@ -88,7 +88,6 @@ h4{
     height: 650px; 
     background: url('../images/papel2.png') no-repeat center center; 
     background-size: cover; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,4 +97,83 @@ h4{
     margin: 80px;
     position: absolute;
     font-size: 25px;
+}
+
+/* Notbooks */
+
+@media only screen and (max-width: 1366px) {
+
+    .box{
+        height: 4600px;
+        padding: 50px; 
+    }
+
+    .paper h4 {
+        margin: 50px;
+        font-size: 23px;
+    }
+
+    .conteudotexto{
+        padding: 30px 30px;
+    }
+}
+
+@media only screen and (max-width: 1280) {
+
+    .box{
+        height: 4700px;
+        padding: 50px; 
+    }
+
+    .paper h4 {
+        margin: 30px;
+        font-size: 22px;
+    }
+
+    .conteudotexto{
+        padding: 30px 30px;
+    }
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 375px) {
+
+    h2{
+        font-size: 15px;
+    }
+
+    h3{
+		font-size: 50px;
+	}
+
+    .box{
+        height: 6500px;
+    }
+
+    .leitura{
+        padding: 0;
+        margin: 0;
+    }
+
+    .paper-row {
+        flex-direction: column;
+        gap: 10px;
+        margin: 10px auto;
+    }
+    
+    .paper {
+        width: 350px; 
+        height: 450px;
+    }
+
+    .paper h4 {
+        margin: 40px;
+        font-size: 16px;
+    }
+
+    .conteudotexto{
+        padding: 10px;
+        margin: 0;
+    }
 }

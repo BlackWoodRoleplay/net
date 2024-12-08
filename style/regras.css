@@ -62,3 +62,16 @@ h3{
     padding: 40px 40px;
     margin: auto;
 }
+
+/* Responsividade */
+
+@media only screen and (max-width: 1366px) {
+   
+.box{
+    display: flex;
+    position: relative;
+    height: 2700px;
+    padding: 50px; 
+}
+
+}
