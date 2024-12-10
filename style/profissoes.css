@@ -121,15 +121,65 @@ h3{
   z-index: 1;
 }
 
-/* Responsividade */
+/* Notebook */
 
 @media only screen and (max-width: 1366px) {
 
-.box{
-  display: flex;
-  position: relative;
-  height: 593px;
-  padding: 20px;
+  .box{
+    height: 593px;
+    padding: 20px;
+  }
 }
 
+@media only screen and (max-width: 1280px) {
+
+  .box{
+    height: 550px;
+    padding: 20px;
+  }
+}
+
+/*Mobile*/
+  
+@media only screen and (max-width: 375px) {
+
+  h1{
+    font-size: 25px;
+  }
+
+  h2{
+    font-size: 15px;
+  }
+
+  h3{
+    font-size: 50px;
+  }
+
+  .box{
+    height: 420px;
+    padding: 10px;
+  }
+
+  .texto{
+    margin: 10px;
+    max-width: 100%;
+  }
+  
+  .texto-direita{
+    margin: 8px;
+    max-width: 100%;
+  }
+
+
+  .box-img1{
+    background-image: url(../imagesRcPf/WIP-1.png);
+  }
+
+  .box-img3{
+    background-image: url(../imagesRcPf/WIP-1.png);
+  }
+
+  .box-img5{
+    background-image: url(../imagesRcPf/WIP-1.png);
+  }
 }

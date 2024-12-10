@@ -63,15 +63,51 @@ h3{
     margin: auto;
 }
 
-/* Responsividade */
+/* Notebook */
 
 @media only screen and (max-width: 1366px) {
-   
-.box{
-    display: flex;
-    position: relative;
+
+    .box{
     height: 2700px;
-    padding: 50px; 
+    padding: 40px;
+    }
 }
 
+@media only screen and (max-width: 1280px) {
+
+    .box{
+        height: 2900px;
+        padding: 40px;
+    }
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 375px) {
+
+    h1{
+        font-size: 25px;
+    }
+
+    h2{
+        font-size: 15px;
+    }
+
+    h3{
+		font-size: 50px;
+	}
+
+    .box{
+        height: 3500px;
+        padding: 40px;
+    }
+
+    .regras{
+        padding: 0;
+        margin: 0;
+    }
+
+    .conteudoregras{
+        padding: 20px 20px;
+    }
 }

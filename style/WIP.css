@@ -52,11 +52,11 @@ h3{
 
 .regras{
     padding: 70px 70px;
-    margin: 0 50px;
+    margin: 40px;
 }
 
 .conteudoregras{
-    width: 98%;
+    width: 100%;
     color: white;
     text-align: center;
     padding: 40px 60px;
@@ -64,13 +64,42 @@ h3{
     border-radius: 50px;
 }
 
+/* Notebook */
+
 @media only screen and (max-width: 1366px) {
 
-.box{
-    display: flex;
-    position: relative;
-    height: 593px;
-    padding: 20px;
+    .box{
+        height: 593px;
+        padding: 20px;
+    }
 }
-    
+
+@media only screen and (max-width: 1280px) {
+
+    .box{
+        height: 693px;
+    }
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 375px) {
+
+    h1{
+        font-size: 18px;
+    }
+
+    h3{
+		font-size: 45px;
+	}
+
+    .box{
+        height: 550px;
+        padding: 0;
+    }
+
+    .regras{        
+        padding: 20px 0;
+        margin: 10px; 
+    }
 }
