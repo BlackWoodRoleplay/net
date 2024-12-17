@@ -41,18 +41,20 @@ h3{
   width: 100%;
   text-align: left;
   align-items: left;
-  margin: 50px;
+  margin: 25px 50px 50px 50px;
   z-index: 2;
-  max-width: 25%;
+  max-width: 30%;
 }
 
 .texto-direita{
-  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 45%;
+  transform: translateY(-50%);
   text-align: right;
-  align-items: right;
-  margin: 50px;
+  margin-right: 20px;
   z-index: 2;
-  max-width: 100%;
+  max-width: 35%;
 }
 
 .box-img{
@@ -166,7 +168,7 @@ h3{
   }
   
   .texto-direita{
-    margin: 8px;
+    top: 38%;
     max-width: 100%;
   }
 
