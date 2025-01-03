@@ -49,7 +49,7 @@ h3{
 .texto-direita{
   position: absolute;
   right: 0;
-  top: 45%;
+  top: 35%;
   transform: translateY(-50%);
   text-align: right;
   margin-right: 20px;
@@ -174,14 +174,14 @@ h3{
 
 
   .box-img1{
-    background-image: url(../imagesRcPf/WIP-1.png);
+    background-image: url(../images/w1.png);
   }
 
   .box-img3{
-    background-image: url(../imagesRcPf/WIP-1.png);
+    background-image: url(../images/w1.png);
   }
 
   .box-img5{
-    background-image: url(../imagesRcPf/WIP-1.png);
+    background-image: url(../images/w1.png);
   }
 }
