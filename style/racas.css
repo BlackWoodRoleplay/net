@@ -34,24 +34,33 @@ h3{
   display: flex;
   position: relative;
   height: 700px;
-  padding: 50px;
+  padding: 30px;
 }
 
 .texto{
-  width: 30%;
+  width: 40%;
   text-align: left;
   align-items: left;
-  margin: 50px;
+  margin: 30px;
   z-index: 2;
   max-width: 100%;
 }
 
 .texto-direita{
-  width: 30%;
+  width: 40%;
   text-align: right;
   align-items: right;
-  margin: 50px;
-  margin-left: 69%;
+  margin: 30px;
+  margin-left: 60%;
+  z-index: 2;
+  max-width: 100%;
+}
+
+.texto-ultimo{
+  width: 45%;
+  text-align: left;
+  align-items: left;
+  margin: 30px;
   z-index: 2;
   max-width: 100%;
 }
@@ -62,7 +71,7 @@ h3{
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../imagesRcPf/WIP-1.png);
+  background-image: url(../imagesRcPf/humano.png);
   background-size: cover;
   z-index: 1;
 }
@@ -73,7 +82,7 @@ h3{
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../imagesRcPf/WIP-2.png);
+  background-image: url(../imagesRcPf/eladrin.png);
   background-size: cover;
   z-index: 1;
 }
@@ -84,7 +93,7 @@ h3{
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../imagesRcPf/WIP-1.png);
+  background-image: url(../imagesRcPf/goblin.png);
   background-size: cover;
   z-index: 1;
 }
@@ -95,7 +104,7 @@ h3{
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../imagesRcPf/WIP-2.png);
+  background-image: url(../imagesRcPf/duergar.png);
   background-size: cover;
   z-index: 1;
 }
@@ -106,7 +115,7 @@ h3{
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../imagesRcPf/WIP-1.png);
+  background-image: url(../imagesRcPf/abyssal.png);
   background-size: cover;
   z-index: 1;
 }
@@ -117,7 +126,7 @@ h3{
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../imagesRcPf/WIP-2.png);
+  background-image: url(../imagesRcPf/orc.png);
   background-size: cover;
   z-index: 1;
 }
@@ -128,7 +137,7 @@ h3{
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../imagesRcPf/WIP-1.png);
+  background-image: url(../imagesRcPf/infernal.png);
   background-size: cover;
   z-index: 1;
 }
@@ -139,7 +148,7 @@ h3{
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../imagesRcPf/WIP-2.png);
+  background-image: url(../imagesRcPf/drag.png);
   background-size: cover;
   z-index: 1;
 }
@@ -150,7 +159,29 @@ h3{
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../imagesRcPf/WIP-1.png);
+  background-image: url(../imagesRcPf/feral.png);
+  background-size: cover;
+  z-index: 1;
+}
+
+.box-img9{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../imagesRcPf/revenant.png);
+  background-size: cover;
+  z-index: 1;
+}
+
+.box-img10{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../imagesRcPf/hex.png);
   background-size: cover;
   z-index: 1;
 }
@@ -159,17 +190,67 @@ h3{
 
 @media only screen and (max-width: 1366px) {
 
+  h1{
+    font-size: 30px;
+  }
+
+  h2{
+    font-size: 16px;
+  }
+
   .box{
-    height: 593px;
-    padding: 20px;
+    height: 530px;
+    padding: 5px;
+  }
+
+  .texto{
+    width: 45%;
+    margin: 5px;
+  }
+  
+  .texto-direita{
+    width: 40%;
+    margin: 5px;
+    margin-left: 60%;
+  }
+  
+  .texto-ultimo{
+    width: 50%;
+    margin: 5px;
+    max-width: 100%;
   }
 }
 
 @media only screen and (max-width: 1280px) {
 
+  h1{
+    font-size: 30px;
+  }
+
+  h2{
+    font-size: 15px;
+  }
+
   .box{
-    height: 550px;
-    padding: 20px;
+    height: 490px;
+    padding: 5px;
+  }
+
+  .texto{
+    width: 45%;
+    margin: 5px;
+  }
+  
+  .texto-direita{
+    width: 40%;
+    margin: 5px;
+    margin-left: 60%;
+  }
+  
+  .texto-ultimo{
+    width: 70%;
+    margin: 5px;
+    max-width: 100%;
   }
 }
 
@@ -190,27 +271,43 @@ h3{
   }
 
   .box{
-    height: 420px;
+    height: 710px;
     padding: 20px;
   }
 
+  .texto{
+    width: 100%;
+    margin: 5px;
+  }
+  
+  .texto-direita{
+    width: 100%;
+    margin: 5px;
+    margin-left: 0%;
+  }
+  
+  .texto-ultimo{
+    width: 100%;
+    margin: 5px;
+  }
+
   .box-img1{
-    background-image: url(../imagesRcPf/WIP-1.png);
+    background-image: url(../images/w1.png);
   }
 
   .box-img3{
-    background-image: url(../imagesRcPf/WIP-1.png);
+    background-image: url(../images/w1.png);
   }
 
   .box-img5{
-    background-image: url(../imagesRcPf/WIP-1.png);
+    background-image: url(../images/w1.png);
   }
 
   .box-img7{
-    background-image: url(../imagesRcPf/WIP-1.png);
+    background-image: url(../images/w1.png);
   }
 
   .box-img9{
-    background-image: url(../imagesRcPf/WIP-1.png);
+    background-image: url(../images/w1.png);
   }
 }
