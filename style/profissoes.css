@@ -129,7 +129,15 @@ h3{
 
   .box{
     height: 593px;
-    padding: 20px;
+    padding: 20px;  
+  }
+
+  .texto{
+    margin: 10px;
+  }
+  
+  .texto-direita{
+    top: 38%;
   }
 }
 
@@ -138,6 +146,14 @@ h3{
   .box{
     height: 550px;
     padding: 20px;
+  }
+
+  .texto{
+    margin: 10px;
+  }
+  
+  .texto-direita{
+    top: 38%;
   }
 }
 
